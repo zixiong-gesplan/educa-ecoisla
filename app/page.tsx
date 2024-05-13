@@ -165,7 +165,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
       </section>
       <section className="px-8 flex flex-col gap-4 items-center">
           <h2 className="text-2xl w-full text-center text-gray-900">INSTRUMENTOS PARA ESTAS LABORES</h2>
-          <p className="text-center w-2/3">
+          <p className="text-center w-2/3 text-gray-900">
            <b className="font-black text-gray-900">Programa de Educación Ambiental</b>, promover actividades educativas destinadas a la ciudadania de Gran Canaria mediante el ámbito formal y no formal (centros escolares, colectivos, administraciones locales, etc.), a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
           </p>
           <div className="flex w-3/4 gap-4 items-center justify-center">
@@ -175,7 +175,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
               width={0}
               height={0}
               alt="educacion ambiental 1"
-              className="h-64 w-1/4"
+              className="h-64  w-64"
             ></Image>
             <Image 
               unoptimized={true}
@@ -186,7 +186,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
               className="h-64 w-64"
             ></Image>
           </div>
-          <p className="text-center w-2/3">
+          <p className="text-center w-2/3 text-gray-900">
            <b className="font-black	text-gray-900">Programa de Divulgación Ambiental</b>, 
            mediante el que se elaboran materiales divulgativos, promoviendo la difusión de contenidos para el fomento de la concienciación social en determinados ámbitos.
           </p>
