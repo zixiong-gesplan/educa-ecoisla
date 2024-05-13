@@ -54,7 +54,7 @@ export default function Home() {
           La conservación de la vida silvestre como vía prioritaria para garantizar el mantenimiento de
           la riqueza, la diversidad genética y de los procesos ecológicos esenciales.
         </p>
-        <p className="text-2xl">
+        <p className="text-2xl text-gray-900">
           En el caso de Canarias es una herramienta imprescindible para trabajar en pro de la preservación y
           conservación de su rica biodiversidad y entornos naturales únicos.
         </p>
@@ -68,18 +68,18 @@ export default function Home() {
             className="w-full lg:w-1/2"
           />
           <div className="lg:pl-8 flex flex-col justify-between ">
-            <p className="text-xl">
+            <p className="text-xl text-gray-900">
               La aprobación en 2015 de la Agenda 2030 para el Desarrollo Sostenible, por parte de la
               Asamblea General de Naciones Unidas, supuso un gran reto para el avance en diferentes
               aspectos de cara a la mejora de las condiciones de vida en el planeta.
             </p>
-            <p className="text-xl">
+            <p className="text-xl text-gray-900">
               Desde la Consejería de Medio Ambiente, Clima, Energía y Conocimiento del Cabildo de Gran
               Canaria, se ha querido iniciar la puesta en marcha de un Plan de Acción de Educación
               Ambiental para la Sostenibilidad con el fin de trabajar los problemas que inciden
               en el medio ambiente desde una perspectiva global y preventiva.
             </p>
-            <p className="text-xl">
+            <p className="text-xl text-gray-900">
             Se trata de un Plan que reúne una serie de acciones con las que se pretende promover la
 concienciación social sobre los temas que afectan en la actualidad a la conservación del medio
 natural. Así, se han incluido temas relacionados con la conservación de la biodiversidad, la
@@ -164,9 +164,9 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
           ></Card>
       </section>
       <section className="px-8 flex flex-col gap-4 items-center">
-          <h2 className="text-2xl w-full text-center">INSTRUMENTOS PARA ESTAS LABORES</h2>
+          <h2 className="text-2xl w-full text-center text-gray-900">INSTRUMENTOS PARA ESTAS LABORES</h2>
           <p className="text-center w-2/3">
-           <b className="font-black">Programa de Educación Ambiental</b>, promover actividades educativas destinadas a la ciudadania de Gran Canaria mediante el ámbito formal y no formal (centros escolares, colectivos, administraciones locales, etc.), a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
+           <b className="font-black text-gray-900">Programa de Educación Ambiental</b>, promover actividades educativas destinadas a la ciudadania de Gran Canaria mediante el ámbito formal y no formal (centros escolares, colectivos, administraciones locales, etc.), a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
           </p>
           <div className="flex w-3/4 gap-4 items-center justify-center">
             <Image 
@@ -187,7 +187,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
             ></Image>
           </div>
           <p className="text-center w-2/3">
-           <b className="font-black	">Programa de Divulgación Ambiental</b>, 
+           <b className="font-black	text-gray-900">Programa de Divulgación Ambiental</b>, 
            mediante el que se elaboran materiales divulgativos, promoviendo la difusión de contenidos para el fomento de la concienciación social en determinados ámbitos.
           </p>
       </section>
@@ -195,7 +195,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
 
       <section className="px-8 flex gap-8 flex-col md:flex-row">
         <div className=" md:w-1/2 w-full">
-          <h2 className="text-2xl w-full text-center">
+          <h2 className="text-2xl w-full text-center text-gray-900">
             ACTIVIDADES CON LA COMUNIDAD EDUCATIVA
           </h2>
           <div className="bg-gradient-to-r from-[#B0CB21] to-[#83AC50] p-4 rounded-s h-48 relative">
@@ -208,7 +208,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
           </div>
         </div>
         <div className=" md:w-1/2 w-full">
-          <h2 className="text-2xl w-full text-center">
+          <h2 className="text-2xl w-full text-center text-gray-900">
             OTRAS ACTIVIDADES
           </h2>
           <div className="flex gap-4 md:flex-row flex-col">
@@ -217,11 +217,11 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
             </div>
             <div className="flex sm:flex-col flex-row md:w-1/2 gap-2 w-full">
               <div className="bg-[#D9D9D9] p-4 rounded-s h-22 w-full">
-                <p>
+                <p className="text-gray-900">
                   Colaboraciones con Ayuntamientos de la isla, empresas, colectivos de diferente naturaleza, etc.
                 </p>
               </div>
-              <div className="bg-[#D9D9D9] p-4 rounded-s h-22 w-full">
+              <div className="bg-[#D9D9D9] p-4 rounded-s h-22 w-full text-gray-900">
                 <p>
                   Participación en ferias y eventos, con Stand o Carpa EcoIsla.
                 </p>
