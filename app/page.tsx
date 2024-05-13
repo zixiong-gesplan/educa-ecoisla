@@ -163,16 +163,36 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
             separación de los residuos, etc."
           ></Card>
       </section>
-      <section className="px-8 flex flex-col gap-4">
+      <section className="px-8 flex flex-col gap-4 items-center">
           <h2 className="text-2xl w-full text-center">INSTRUMENTOS PARA ESTAS LABORES</h2>
-          <p className="text-center">
-           <b className="font-black	">Programa de Educación Ambiental</b>, promover actividades educativas destinadas a la ciudadania de Gran Canaria mediante el ámbito formal y no formal (centros escolares, colectivos, administraciones locales, etc.), a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
+          <p className="text-center w-2/3">
+           <b className="font-black">Programa de Educación Ambiental</b>, promover actividades educativas destinadas a la ciudadania de Gran Canaria mediante el ámbito formal y no formal (centros escolares, colectivos, administraciones locales, etc.), a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
           </p>
-          <p className="text-center">
+          <div className="flex w-3/4 gap-4 items-center justify-center">
+            <Image 
+              unoptimized={true}
+              src={"/educacion_ambiental_1.jpg"}
+              width={0}
+              height={0}
+              alt="educacion ambiental 1"
+              className="h-64 w-1/4"
+            ></Image>
+            <Image 
+              unoptimized={true}
+              src={"/educacion_ambiental_2.jpeg"}
+              width={0}
+              height={0}
+              alt="educacion ambiental 1"
+              className="h-64 w-64"
+            ></Image>
+          </div>
+          <p className="text-center w-2/3">
            <b className="font-black	">Programa de Divulgación Ambiental</b>, 
            mediante el que se elaboran materiales divulgativos, promoviendo la difusión de contenidos para el fomento de la concienciación social en determinados ámbitos.
           </p>
       </section>
+      <section className="h-12"></section>
+
       <section className="px-8 flex gap-8 flex-col md:flex-row">
         <div className=" md:w-1/2 w-full">
           <h2 className="text-2xl w-full text-center">
