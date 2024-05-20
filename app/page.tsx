@@ -45,6 +45,9 @@ export default function Home() {
         </p>
       </section>
       <section className="m-4 mt-2 text-xl mx-auto max-w-screen-xl px-8">
+        <div>
+          
+        </div>
         <p className="font-bold text-2xl text-[#024E3D]">
           La conservación de la vida silvestre como vía prioritaria para garantizar el mantenimiento de
           la riqueza, la diversidad genética y de los procesos ecológicos esenciales.
@@ -164,7 +167,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
       </section>
       <section className="px-8 flex flex-col gap-4 items-center">
           <h2 className="text-2xl w-full text-center text-gray-900">INSTRUMENTOS PARA ESTAS LABORES</h2>
-          <p className="text-center w-2/3 text-gray-900">
+          <p className="text-center w-2/3 text-gray-900 text-xl ">
            <b className="font-black text-gray-900">Programa de Educación Ambiental</b>, promover actividades educativas destinadas a la ciudadania de Gran Canaria mediante el ámbito formal y no formal (centros escolares, colectivos, administraciones locales, etc.), a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
           </p>
           <div className="flex w-3/4 gap-4 items-center justify-center sx:h-[520px] h:96">
@@ -189,8 +192,8 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
             </div>
 
           </div>
-          <p className="text-center w-2/3 text-gray-900">
-           <b className="font-black	text-gray-900">Programa de Divulgación Ambiental</b>, 
+          <p className="text-center w-2/3 text-gray-900 text-xl ">
+           <b className="font-black	text-gray-900 ">Programa de Divulgación Ambiental</b>, 
            mediante el que se elaboran materiales divulgativos, promoviendo la difusión de contenidos para el fomento de la concienciación social en determinados ámbitos.
           </p>
       </section>
