@@ -1,15 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Target = ({children,text}:{
   children: React.ReactNode;
   text: string;
 }) =>{
   return <div className="flex flex-col items-center mt-8">
-        {/* <svg className="w-[64px] h-[64px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-          <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 9H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h6m0-6v6m0-6 5.419-3.87A1 1 0 0 1 18 5.942v12.114a1 1 0 0 1-1.581.814L11 15m7 0a3 3 0 0 0 0-6M6 15h3v5H6v-5Z"/>
-        </svg> */}
-
         {children}
         <p className="text-center text-zinc-50 border-b-2 pb-4 text-2xl grow	md:max-w-80 sm:w-full">
           {text}
@@ -46,7 +41,7 @@ export default function Home() {
 "
         />
         <p className="z-10 absolute right-0 text-[#B0CB21] font-bold mr-4 text-4xl text-right align-middle backdrop-blur-sm bg-black/35 p-2 w-full sm:w-1/2 lg:text-5xl uppercase font-bold rounded-md">
-          La <span className="text-[#DCE385]">educación ambiental</span> supone una pieza fundamental para la conservación del <span className="text-[#64ACAA]">territorio.</span>
+          La <span className="text-[#DCE385]">educación ambiental</span> supone una pieza fundamental para la conservación del territorio.
         </p>
       </section>
       <section className="m-4 mt-2 text-xl mx-auto max-w-screen-xl px-8">
@@ -58,28 +53,32 @@ export default function Home() {
           En el caso de Canarias es una herramienta imprescindible para trabajar en pro de la preservación y
           conservación de su rica biodiversidad y entornos naturales únicos.
         </p>
+
         <div className="flex flex-col lg:flex-row lg:pt-8 ">
-          <Image
-            src="/informacion.png"
-            alt="informacion"
-            unoptimized={true}
-            width={0}
-            height={0}
-            className="w-full lg:w-1/2"
-          />
-          <div className="lg:pl-8 flex flex-col justify-between ">
-            <p className="text-xl text-gray-900">
+          <div className="w-full lg:w-2/5 justify-items-center	">
+            <Image
+                src="/informacion.png"
+                alt="informacion"
+                unoptimized={true}
+                width={751}
+                height={307}
+                className=""
+              />
+          </div>
+
+          <div className="w-full lg:w-3/5 lg:pl-8 flex flex-col justify-between gap-8">
+            <p className="text-lg text-gray-900">
               La aprobación en 2015 de la Agenda 2030 para el Desarrollo Sostenible, por parte de la
               Asamblea General de Naciones Unidas, supuso un gran reto para el avance en diferentes
               aspectos de cara a la mejora de las condiciones de vida en el planeta.
             </p>
-            <p className="text-xl text-gray-900">
+            <p className="text-lg text-gray-900">
               Desde la Consejería de Medio Ambiente, Clima, Energía y Conocimiento del Cabildo de Gran
               Canaria, se ha querido iniciar la puesta en marcha de un Plan de Acción de Educación
               Ambiental para la Sostenibilidad con el fin de trabajar los problemas que inciden
               en el medio ambiente desde una perspectiva global y preventiva.
             </p>
-            <p className="text-xl text-gray-900">
+            <p className="text-lg text-gray-900">
             Se trata de un Plan que reúne una serie de acciones con las que se pretende promover la
 concienciación social sobre los temas que afectan en la actualidad a la conservación del medio
 natural. Así, se han incluido temas relacionados con la conservación de la biodiversidad, la
@@ -168,23 +167,27 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
           <p className="text-center w-2/3 text-gray-900">
            <b className="font-black text-gray-900">Programa de Educación Ambiental</b>, promover actividades educativas destinadas a la ciudadania de Gran Canaria mediante el ámbito formal y no formal (centros escolares, colectivos, administraciones locales, etc.), a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
           </p>
-          <div className="flex w-3/4 gap-4 items-center justify-center">
-            <Image 
-              unoptimized={true}
-              src={"/educacion_ambiental_1.jpg"}
-              width={0}
-              height={0}
-              alt="educacion ambiental 1"
-              className="h-64  w-64"
-            ></Image>
-            <Image 
-              unoptimized={true}
-              src={"/educacion_ambiental_2.jpeg"}
-              width={0}
-              height={0}
-              alt="educacion ambiental 1"
-              className="h-64 w-64"
-            ></Image>
+          <div className="flex w-3/4 gap-4 items-center justify-center sx:h-[520px] h:96">
+            <div className="h-full	">
+              <Image 
+                unoptimized={true}
+                src={"/educacion_ambiental_1.jpg"}
+                width={447}
+                height={0}
+                alt="educacion ambiental 1 "
+              ></Image>
+            </div>
+            <div className="h-full">
+              <Image 
+                unoptimized={true}
+                src={"/educacion_ambiental_2.jpeg"}
+                width={904}
+                height={0}
+                alt="educacion ambiental 1"
+              ></Image>
+
+            </div>
+
           </div>
           <p className="text-center w-2/3 text-gray-900">
            <b className="font-black	text-gray-900">Programa de Divulgación Ambiental</b>, 
@@ -195,7 +198,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
 
       <section className="px-8 flex gap-8 flex-col md:flex-row">
         <div className=" md:w-1/2 w-full">
-          <h2 className="text-2xl w-full text-center text-gray-900">
+          <h2 className="text-2xl w-full text-center text-gray-900 sm:h-[64px] h-[32px]">
             ACTIVIDADES CON LA COMUNIDAD EDUCATIVA
           </h2>
           <div className="bg-gradient-to-r from-[#B0CB21] to-[#83AC50] p-4 rounded-s h-48 relative">
@@ -208,7 +211,7 @@ adquisición de buenas prácticas relacionadas con la eficiencia energética, el
           </div>
         </div>
         <div className=" md:w-1/2 w-full">
-          <h2 className="text-2xl w-full text-center text-gray-900">
+          <h2 className="text-2xl w-full text-center text-gray-900 sm:h-[64px] h-[32px]">
             OTRAS ACTIVIDADES
           </h2>
           <div className="flex gap-4 md:flex-row flex-col">
