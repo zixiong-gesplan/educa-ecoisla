@@ -1,7 +1,7 @@
 import { ImageWrapper as Image } from "./Image"
 
 export const  NavBar = () => {
-    return <nav className="bg-white backdrop-blur-sm bg-white/30 fixed relative z-20">
+    return <nav className="bg-white backdrop-blur-sm bg-white/30 relative z-20">
     <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src="Cabildo_Logo.png" alt="Cabildo de Gran Canaria" size={48}/>
