@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, M_PLUS_Rounded_1c } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "./components/Navbar";
+import { Analytics } from '@vercel/analytics/react';
 
 const MPLUS1 = M_PLUS_Rounded_1c({
   weight: ["700","900"],
@@ -24,6 +25,7 @@ export default function RootLayout({
       <body className={MPLUS1.className}>
         <NavBar />
         {children}
+        <Analytics />
       </body>
     </html>
   );
