@@ -4,7 +4,7 @@ export const Actions = () => {
       <h2 className="text-2xl w-full text-center text-gray-900 sm:h-[64px] h-[32px]">
         ACTIVIDADES CON LA COMUNIDAD EDUCATIVA
       </h2>
-      <div className="bg-gradient-to-r from-[#B0CB21] to-[#83AC50] p-4 rounded-s h-48 relative">
+      <div className="bg-gradient-to-r from-[#B0CB21] to-[#83AC50] p-4 rounded-md h-48 relative">
         <p className="text-xl text-white">
           Talleres y Salidas de campo con la Comunidad educativa.
         </p>
@@ -18,16 +18,16 @@ export const Actions = () => {
         OTRAS ACTIVIDADES
       </h2>
       <div className="flex gap-4 md:flex-row flex-col">
-        <div className="bg-gradient-to-r from-[#B0CB21] to-[#83AC50] p-4 rounded-s h-48 md:w-1/2 w-full">
+        <div className="bg-gradient-to-r from-[#B0CB21] to-[#83AC50] p-4 rounded-md h-48 md:w-1/2 w-full">
           <p className="text-xl text-white">Experiencia EcoIsla.</p>
         </div>
         <div className="flex sm:flex-col flex-row md:w-1/2 gap-2 w-full">
-          <div className="bg-[#D9D9D9] p-4 rounded-s h-22 w-full">
+          <div className="bg-[#D9D9D9] p-4 rounded-md h-22 w-full">
             <p className="text-gray-900">
               Colaboraciones con Ayuntamientos de la isla, empresas, colectivos de diferente naturaleza, etc.
             </p>
           </div>
-          <div className="bg-[#D9D9D9] p-4 rounded-s h-22 w-full text-gray-900">
+          <div className="bg-[#D9D9D9] p-4 rounded-md h-22 w-full text-gray-900">
             <p>
               Participación en ferias y eventos, con Stand o Carpa EcoIsla.
             </p>
