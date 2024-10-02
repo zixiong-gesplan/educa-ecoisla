@@ -1,5 +1,5 @@
 export const Actions = () => {
-    return <section className="px-8 flex gap-8 flex-col md:flex-row">
+    return <section className="mt-10 px-8 flex gap-8 flex-col md:flex-row">
     <div className=" md:w-1/2 w-full">
       <h2 className="text-2xl w-full text-center text-gray-900 sm:h-[64px] h-[32px]">
         ACTIVIDADES CON LA COMUNIDAD EDUCATIVA
