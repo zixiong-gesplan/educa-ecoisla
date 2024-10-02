@@ -3,11 +3,11 @@ import { Target } from "../components/Target"
 
 export const Targets = () => {
     return <>
-        <section className="bg-[#B0CB21] p-8 w-full">
+        <section className="mt-4 bg-[#B0CB21] p-8 w-full">
             <h1 className="font-bold text-zinc-50 text-center text-2xl">
                 OBJETIVOS GENERALES
             </h1>
-            <div className="flex flex-wrap	w-full justify-between gap-2 mx-auto max-w-screen-xl">
+            <div className="flex flex-wrap	w-full justify-evenly gap-2 mx-auto max-w-screen-xl">
             <Target text="Implementamos  actividades de educación ambiental con mejoras continuas.">
                 <svg className="w-[64px] h-[64px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                 <path stroke="white" strokeLinecap="round" strokeWidth="2" d="M4.5 17H4a1 1 0 0 1-1-1 3 3 0 0 1 3-3h1m0-3.05A2.5 2.5 0 1 1 9 5.5M19.5 17h.5a1 1 0 0 0 1-1 3 3 0 0 0-3-3h-1m0-3.05a2.5 2.5 0 1 0-2-4.45m.5 13.5h-7a1 1 0 0 1-1-1 3 3 0 0 1 3-3h3a3 3 0 0 1 3 3 1 1 0 0 1-1 1Zm-1-9.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"/>
@@ -33,7 +33,7 @@ export const Targets = () => {
                 </svg>
             </Target>
             <Target text="Comunicación y divulgación ambiental.">
-                <svg className="w-[64px] h-[64px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                <svg className="w-[64px] h-[64px] text-gray-800 dark:text-white" xmlns="http://www.w3.org/2000/svg" width={24} height={24} fill="none" viewBox="0 0 24 24">
                 <path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 9H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h6m0-6v6m0-6 5.419-3.87A1 1 0 0 1 18 5.942v12.114a1 1 0 0 1-1.581.814L11 15m7 0a3 3 0 0 0 0-6M6 15h3v5H6v-5Z"/>
                 </svg>
 
@@ -56,7 +56,7 @@ export const Targets = () => {
             </Target>
             </div>
         </section>
-        <section className="py-4 lg:px-24 px-8 md:px-16 gap-12 grid lg:grid-cols-3 md:grid-cols-2 auto-cols-[minmax(300px,_1fr)]">
+        <section className="mt-2 py-4 lg:px-24 px-8 md:px-16 gap-8 grid md:grid-cols-1 xl:grid-cols-3 auto-cols-[minmax(600px,_1fr)]">
             <Card
                 title="Patrimonio Natural de Gran Canaria"
                 description="Tiene como objetivo principal dar a conocer la biodiversidad y geología de Gran Canaria a la

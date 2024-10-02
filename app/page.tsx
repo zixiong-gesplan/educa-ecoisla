@@ -12,10 +12,10 @@ export default function Home() {
       <Description></Description>
       <Targets></Targets>
 
-      <section className="h-12"></section>
+      <section className="h-6"></section>
       <Tools></Tools>
       <Actions></Actions>
-      <section className="h-48"></section>
+      <section className="h-28"></section>
     </main>
   );
 }
