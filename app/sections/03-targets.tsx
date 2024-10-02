@@ -56,7 +56,7 @@ export const Targets = () => {
             </Target>
             </div>
         </section>
-        <section className="mt-2 py-4 lg:px-24 px-8 md:px-16 gap-8 grid md:grid-cols-1 xl:grid-cols-3 auto-cols-[minmax(600px,_1fr)]">
+        <section className="mt-2 py-4 lg:px-24 px-8 md:px-16 gap-8 grid md:grid-cols-1 xl:grid-cols-3 auto-cols-[minmax(300px,_1fr)]">
             <Card
                 title="Patrimonio Natural de Gran Canaria"
                 description="Tiene como objetivo principal dar a conocer la biodiversidad y geología de Gran Canaria a la

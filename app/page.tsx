@@ -17,7 +17,7 @@ export default function Home() {
         <section className="h-6"></section>
         <Tools></Tools>
         <Actions></Actions>
-        <section className="h-28"></section>
+        <section className="h-20"></section>
       </main>
       <Footer></Footer>
     </>
