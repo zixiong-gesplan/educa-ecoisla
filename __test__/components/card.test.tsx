@@ -10,4 +10,12 @@ describe("Card component", () => {
         />)
         expect(screen.getByText("carta")).not.toBeNull()
     })
+
+    it("exists description", async () => {
+        render(<Card
+            title="carta"
+            description="lorem ipsum"
+        />)
+        expect(screen.findByText("lorem ipsum")).not.toBeNull()
+    })
 })
