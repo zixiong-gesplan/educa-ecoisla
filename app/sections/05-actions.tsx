@@ -1,7 +1,7 @@
 
 export const Actions = () => {
-  return <section className="mt-10 px-8 flex gap-8 flex-col lg:flex-row">
-  <div className=" lg:w-1/2 w-full">
+  return <section className="mt-10 px-4 md:px-8 flex gap-8 flex-col lg:flex-row">
+  <div className="lg:w-1/2 w-full">
     <h2 className="xl:text-2xl text-lg w-full text-center text-gray-900 mb-3">
       ACTIVIDADES CON LA COMUNIDAD EDUCATIVA
     </h2>
