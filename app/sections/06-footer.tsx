@@ -5,7 +5,7 @@ export const Footer = () => {
 
         <FooterBase
             telephone="628 53 20 29"
-            copy_right={`${new Date().getFullYear()} Gesplan. Todos los derechos reservados.`}
+            copy_right={`${new Date().getFullYear()} Gesplan`}
             email="educaecoisla@gesplan.es"
         />
 

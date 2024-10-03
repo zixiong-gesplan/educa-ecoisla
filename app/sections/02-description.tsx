@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export const Description = () => {
-    return       <section className="m-4 mt-[-45px] text-xl mx-auto max-w-screen-xl px-8">
+    return       <section className="m-4 mt-[-45px] text-xl mx-4 md:mx-8 max-w-screen-xl">
     <div className="bg-[#83AC50] p-8 rounded-lg">
       <p className="font-bold text-2xl text-white">
         La conservación de la vida silvestre como vía prioritaria para garantizar el mantenimiento de
@@ -12,7 +12,7 @@ export const Description = () => {
         conservación de su rica biodiversidad y entornos naturales únicos.
       </p>
     </div>
-    <div className="flex flex-col lg:flex-row m-0 items-center  mt-6">
+    <div className="flex flex-col lg:flex-row m-0 items-center mt-8">
       <div className="lg:w-2/5 h-full">
         <Image
             src="/informacion.png"
@@ -24,7 +24,7 @@ export const Description = () => {
           />
       </div>
 
-      <div className="mt-8 w-full lg:w-3/5 lg:pl-8 flex flex-col justify-between gap-8">
+      <div className="w-full lg:w-3/5 lg:pl-8 flex flex-col justify-between gap-8 mt-8 lg:mt-0">
         <p className="text-lg text-gray-900">
           La aprobación en 2015 de la Agenda 2030 para el Desarrollo Sostenible, por parte de la
           Asamblea General de Naciones Unidas, supuso un gran reto para el avance en diferentes aspectos de cara a la mejora de las condiciones de vida en el planeta.

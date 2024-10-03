@@ -13,8 +13,8 @@ export const FooterBase = ({copy_right, telephone, email}: contactProp) => {
       
       <div className="m-0  py-8">
         <p>Email: <a href={`mailto:${email}`}>{email}</a></p>
-        <p>Teléfono: {telephone}</p>
-        <p className="mt-3">&copy;{copy_right}</p>
+        <p data-testid="phone-number">Teléfono: {telephone}</p>
+        <p className="mt-3 text-sm">&copy;{copy_right}</p>
       </div>
       
     </footer>
