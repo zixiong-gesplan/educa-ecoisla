@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export const Hero = () => {
-    return <section className="transform w-full flex py-auto items-center -translate-y-[80px] overflow-hidden">
+    return <section className="w-full flex py-auto items-center overflow-hidden">
     <Image 
       src="/landing_2.png" 
       alt="Landing" 
