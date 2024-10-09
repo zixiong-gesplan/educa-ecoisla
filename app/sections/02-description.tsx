@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export const Description = () => {
-    return       <section className="m-4 mt-[-45px] text-xl mx-4 md:mx-8 max-w-screen-xl">
+    return       <section className="m-4 text-xl mx-4 md:mx-8 max-w-screen-xl">
     <div className="bg-[#83AC50] p-8 rounded-lg">
       <p className="font-bold text-2xl text-white">
         La conservación de la vida silvestre como vía prioritaria para garantizar el mantenimiento de
