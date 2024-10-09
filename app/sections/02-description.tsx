@@ -2,14 +2,14 @@ import Image from "next/image"
 
 export const Description = () => {
 	return (<>
-		<section className="my-4">
-			<div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 xl:grid-cols-12">
+		<section>
+			<div className="grid max-w-screen-xl px-4 py-8 mx-4 lg:gap-8 xl:gap-0 lg:py-16 xl:grid-cols-12">
 				<div className="mr-auto place-self-center xl:col-span-7">
-					<h2 className="text-5xl">La educación ambiental supone una pieza importante en la conservación del territorio.</h2>
-					<p className="mt-4 text-2xl">La consejería de Medio Ambiente del Cabildo de Gran Canaria ha implementado un Plan de Acción de Educación Ambiental
+					<h2 className="text-2xl sm:text-5xl">La educación ambiental supone una pieza importante en la conservación del territorio.</h2>
+					<p className="mt-4 text-lg sm:text-2xl">La consejería de Medio Ambiente del Cabildo de Gran Canaria ha implementado un Plan de Acción de Educación Ambiental
 						para la Sostenibilidad, centrado en la concienciación social sobre la conservación del medio ambiente.
 					</p>
-					<div className="mt-6 w-2/3 flex justify-start gap-3" >
+					<div className="mt-6 w-[200px] lg:w-2/3 flex justify-start gap-3" >
 						<button className="flex items-center justify-between text-white border-custom-dark-green border-4 bg-custom-dark-green rounded-lg mr-3 px-4 py-2 w-60 lg:w-[300px]">
 							<div className="w-2/3 text-center flex justify-center items-center">Galería de Actividades</div>
 							<svg className="w-12 h-12 text-white dark:text-white content-center" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
