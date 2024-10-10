@@ -1,10 +1,9 @@
-import Image from "next/image";
-import { Hero } from "./sections/01-main";
-import { Objetives } from "./sections/02-objetives";
-import { Targets } from "./sections/03-targets";
-import { Tools } from "./sections/04-tools";
-import { Actions } from "./sections/05-actions";
-import { Footer } from "./sections/06-footer";
+import { Hero } from "./sections/03-hero";
+import { Objetives } from "./sections/04-objetives";
+import { Targets } from "./sections/05-targets";
+import { Tools } from "./sections/06-tools";
+import { Actions } from "./sections/07-actions";
+import { Footer } from "./sections/08-footer";
 
 export default function Home() {
   return (
