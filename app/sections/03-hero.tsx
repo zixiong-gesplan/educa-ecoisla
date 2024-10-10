@@ -10,7 +10,7 @@ export const Hero = () => {
 					<p className="mt-4 text-lg sm:text-2xl">La consejería de Medio Ambiente del Cabildo de Gran Canaria ha implementado un Plan de Acción de Educación Ambiental
 						para la Sostenibilidad, centrado en la concienciación social sobre la conservación del medio ambiente.
 					</p>
-					<div className="mt-6 w-[200px] lg:w-2/3 flex justify-start gap-2" >
+					<div className="flex mt-6 md:w-2/3 flex-row justify-start gap-2" >
 
 						<CustomButton
 							content="Galería de Actividades"
