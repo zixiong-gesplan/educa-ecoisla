@@ -1,5 +1,6 @@
 import { ImageWrapper as Image } from "./Image"
 import SocialButton from "../components/SocialButton";
+import NavItem from "../components/NavItem";
 
 export const NavBar = () => {
 	return (<>
@@ -24,14 +25,18 @@ export const NavBar = () => {
 				</div>
 			</div>
 		</header>
+		
 		<nav className="flex columns-6 justify-items-center justify-center w-full bg-custom-light-bg text-white p-1 lg:py-2 text-[7pt] sm:text-sm lg:text-xl">
-			<div className="inline text-center border-r p-1 sm:px-3 lg:px-5 content-center">Inicio</div>
-			<div className="inline text-center border-r p-1 sm:px-3 lg:px-5 content-center">Objetivos generales</div>
-			<div className="inline text-center border-r p-1 sm:px-3 lg:px-5 content-center">Ejes de actuación</div>
-			<div className="inline text-center border-r p-1 sm:px-3 lg:px-5 content-center">Plan de acción</div>
-			<div className="inline text-center border-r p-1 sm:px-3 lg:px-5 content-center">Actividades</div>
-			<div className="inline text-center p-1 sm:px-3 lg:px-5 content-center">Contacto</div>
+
+			<NavItem url="#" label="Inicio"></NavItem>
+			<NavItem url="#" label="Objetivos generales"></NavItem>
+			<NavItem url="#" label="Ejes de actuación"></NavItem>
+			<NavItem url="#" label="Plan de acción"></NavItem>
+			<NavItem url="#" label="Actividades"></NavItem>
+			<NavItem url="#" label="Contacto"></NavItem>
+		
 		</nav>
+	
 	</>);
 
 }
