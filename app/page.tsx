@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Hero } from "./sections/01-main";
-import { Objetives } from "./sections/02-Objetives";
+import { Objetives } from "./sections/02-objetives";
 import { Targets } from "./sections/03-targets";
 import { Tools } from "./sections/04-tools";
 import { Actions } from "./sections/05-actions";
