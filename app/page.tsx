@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Hero } from "./sections/01-main";
-import { Description } from "./sections/02-description";
+import { Objetives } from "./sections/02-Objetives";
 import { Targets } from "./sections/03-targets";
 import { Tools } from "./sections/04-tools";
 import { Actions } from "./sections/05-actions";
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <main className="flex min-h-screen flex-col items-center">
         <Hero></Hero>
-        <Description></Description>
+        <Objetives></Objetives>
         <Targets></Targets>
 
         <section className="h-6"></section>
