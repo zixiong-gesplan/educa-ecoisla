@@ -9,14 +9,14 @@ export default function Home() {
   return (
     <>
       <main className="flex min-h-screen flex-col items-center">
-        {/* <Hero></Hero>
+        <Hero></Hero>
         <Objetives></Objetives>
         <Targets></Targets>
 
         <section className="h-6"></section>
         <Tools></Tools>
         <Actions></Actions>
-        <section className="h-20"></section> */}
+        <section className="h-20"></section>
       </main>
       <Footer></Footer>
     </>
