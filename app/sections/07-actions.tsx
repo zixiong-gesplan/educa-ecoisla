@@ -1,5 +1,5 @@
-import { ImageWrapper as Image } from "../components/Image";
 import { ActivityTarjet } from "../components/ActivityTarject";
+import { MoreActivities } from "../components/MoreActivities";
 
 export const Actions = () => {
     return (
@@ -15,18 +15,7 @@ export const Actions = () => {
                 <ActivityTarjet size={250} text="Ferias" />
                 <ActivityTarjet size={250} text="Colaboraciones" />
 
-                <div className="lg:col-span-3 h-auto">
-                    
-                    <div className="flex justify-center items-center h-[23vw] lg:h-[210px] bg-custom-light-bg bg-opacity-10 rounded-lg">
-
-                        <div className="h-4 w-4 lg:h-8 lg:w-8 bg-custom-light-bg rounded-full mx-1 lg:mx-3"></div>
-                        <div className="h-4 w-4 lg:h-8 lg:w-8 bg-custom-light-bg rounded-full mx-1 lg:mx-3"></div>
-                        <div className="h-4 w-4 lg:h-8 lg:w-8 bg-custom-light-bg rounded-full mx-1 lg:mx-3"></div>
-
-
-                    </div>
-                    <h3 className="w-full text-center text-xs sm:text-lg md:text-2xl xl:text-3xl mt-1 sm:mt-3 md:mt-[-70px] text-custom-light-bg">Más actividades</h3>
-                </div>
+                <MoreActivities text="Más actividades" />
 
             </div>
 
