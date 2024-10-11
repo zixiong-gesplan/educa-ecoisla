@@ -1,6 +1,6 @@
 import Image from "next/image"
-import { CustomButtonDark } from '../components/CustomButtonDark';
-import { CustomButtonLight } from '../components/CustomButtonLight';
+import { ButtonDark } from '../components/ButtonDark';
+import { ButtonLight } from '../components/ButtonLight';
 import { SVGCodes } from "../types/SVG-codes";
 
 export const Hero = () => {
@@ -14,17 +14,17 @@ export const Hero = () => {
 					</p>
 					<div className="flex mt-6 md:w-2/3 flex-row justify-start gap-2" >
 
-						<CustomButtonDark
+						<ButtonDark
 							content="Galería de Actividades"
 							d={SVGCodes.Image}
 						>
-						</CustomButtonDark>
+						</ButtonDark>
 
-						<CustomButtonLight
+						<ButtonLight
 							content="Próxima actividad"
 							d={SVGCodes.ArrowUpRight}
 						>
-						</CustomButtonLight>
+						</ButtonLight>
 
 					</div>
 				</div>
