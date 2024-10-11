@@ -4,7 +4,7 @@ interface Props {
     d: string;
 }
 
-export const CustomButtonLight = ( { content, d }: Props ) => {
+export const ButtonLight = ( { content, d }: Props ) => {
     return (
         <button className="flex items-center justify-between text-custom-dark-green bg-custom-light-bg bg-opacity-20
          hover:bg-opacity-40 rounded-lg px-4 py-2 w-full md:w-[300px]">
