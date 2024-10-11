@@ -1,6 +1,6 @@
 import { ImageWrapper as Image } from "./Image";
 
-export const ActivityTarjet = ({size=250, text}: {size?: number, text: string}) => {
+export const ActivityTarget = ({size=250, text}: {size?: number, text: string}) => {
 
     return (
         <div className="mb-2 min-h-full">
