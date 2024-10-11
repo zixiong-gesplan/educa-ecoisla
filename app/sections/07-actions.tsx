@@ -1,40 +1,39 @@
+import { ImageWrapper as Image } from "../components/Image";
+import { ActivityTarjet } from "../components/ActivityTarject";
 
 export const Actions = () => {
-  return <section className="mt-10 px-4 md:px-8 flex gap-8 flex-col lg:flex-row">
-  <div className="lg:w-1/2 w-full">
-    <h2 className="xl:text-2xl text-lg w-full text-center text-gray-900 mb-3">
-      ACTIVIDADES CON LA COMUNIDAD EDUCATIVA
-    </h2>
-    <div className="bg-gradient-to-r from-[#B0CB21] to-[#83AC50] p-4 rounded-md h-48 relative">
-      <p className="text-xl text-white">
-        Talleres y Salidas de campo con la Comunidad educativa.
-      </p>
-      <a href="mailto:educaecoisla@gesplan.es ?subject=Contacto por la web"
-        className="text-[#83AC50] bg-white border-2 p-2 flex bottom-4 absolute rounded-md right-4  hover:border-white hover:bg-[#83AC50] hover:text-white"
-      >Contactanos</a>
-    </div>
-  </div>
-  <div className=" lg:w-1/2 w-full">
-    <h2 className="xl:text-2xl text-lg w-full text-center text-gray-900 mb-3">
-      OTRAS ACTIVIDADES
-    </h2>
-    <div className="flex gap-4 md:flex-row flex-col">
-      <div className="bg-gradient-to-r from-[#B0CB21] to-[#83AC50] p-4 rounded-md h-48 md:w-1/2 w-full">
-        <p className="text-xl text-white">Experiencia EcoIsla.</p>
-      </div>
-      <div className="flex sm:flex-col flex-row md:w-1/2 gap-2 w-full">
-        <div className="bg-[#D9D9D9] p-4 rounded-md h-22 w-full">
-          <p className="text-gray-900">
-            Colaboraciones con Ayuntamientos de la isla, empresas, colectivos de diferente naturaleza, etc.
-          </p>
-        </div>
-        <div className="bg-[#D9D9D9] p-4 rounded-md h-22 w-full text-gray-900">
-          <p>
-            Participación en ferias y eventos, con Stand o Carpa EcoIsla.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    return (
+        <section className="mx-4">
+
+            <h2 className="m-6 text-2xl w-full text-center text-gray-900 font-extrabold">ACTIVIDADES</h2>
+
+            <div className="grid grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-12">
+
+                <ActivityTarjet size={250} text="Talleres en áula" />
+                <ActivityTarjet size={250} text="Salidas al campo" />
+                <ActivityTarjet size={250} text="Rutas al campo" />
+                <ActivityTarjet size={250} text="Ferias" />
+                <ActivityTarjet size={250} text="Colaboraciones" />
+
+                <div className="lg:col-span-3 h-auto">
+                    
+                    <div className="flex justify-center items-center h-[23vw] lg:h-[210px] bg-custom-light-bg bg-opacity-10 rounded-lg">
+
+                        <div className="h-4 w-4 lg:h-8 lg:w-8 bg-custom-light-bg rounded-full mx-1 lg:mx-3"></div>
+                        <div className="h-4 w-4 lg:h-8 lg:w-8 bg-custom-light-bg rounded-full mx-1 lg:mx-3"></div>
+                        <div className="h-4 w-4 lg:h-8 lg:w-8 bg-custom-light-bg rounded-full mx-1 lg:mx-3"></div>
+
+
+                    </div>
+                    <h3 className="w-full text-center text-xs sm:text-lg md:text-2xl xl:text-3xl mt-1 sm:mt-3 md:mt-[-70px] text-custom-light-bg">Más actividades</h3>
+                </div>
+
+            </div>
+
+        </section>
+    );
+
+
+
+
 }
