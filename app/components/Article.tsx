@@ -1,5 +1,3 @@
-import { SVGTicket } from "./SVGTicket";
-import { ImageWrapper as Image } from './Image';
 
 interface Props {
     children: React.ReactNode, 

@@ -1,6 +1,5 @@
 import Image from "next/image"
 import { SVGTicket } from "../components/SVGTicket"
-import { ToolsArticle } from "../components/ToolsArticle"
 import { Article } from "../components/Article"
 
 export const Tools = () => {
