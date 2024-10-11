@@ -13,7 +13,7 @@ export const Tools = () => {
 				<p className="border-b-2 border-custom-light-bg py-4 text-lg sm:text-xl">
 					Promover actividades educativas destinadas a la ciudadanína de Gran Canaria mediante el ámbito formal y no formal
 					(centros escolares, colectivos, administraciones locales, etc.),
-					a través de acciones como salidas de campo, campañas de sensibilización , jornadas de voluntariado, etc.
+					a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
 				</p>
 				<ul className="mt-4 flex flex-col gap-4">
 					<li className="flex gap-2"> <SVGTicket /> Salidas al campo</li>
