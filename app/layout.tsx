@@ -26,8 +26,8 @@ export default function RootLayout({
 	return (
 		<html lang="es">
 			<body className={MPLUS1.className}>
-				<Header></Header>
-				<NavBar></NavBar>
+				{/* <Header></Header>
+				<NavBar></NavBar> */}
 				{children}
 				<Analytics />
 				<SpeedInsights />
