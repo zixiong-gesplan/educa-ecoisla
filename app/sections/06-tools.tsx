@@ -1,9 +1,10 @@
+
 import Image from "next/image"
 import { SVGTicket } from "../components/SVGTicket"
 import { Article } from "../components/Article"
 
 export const Tools = () => {
-	return <section className="px-6 flex flex-col items-center max-w-screen-xl gap-0 xl:gap-6">
+	return <section className="px-4 flex flex-col items-center max-w-screen-xl gap-0 xl:gap-6">
 
 		<h2 className="text-2xl w-full text-center text-gray-900 font-extrabold">INSTRUMENTOS PARA ESTAS LABORES</h2>
 
