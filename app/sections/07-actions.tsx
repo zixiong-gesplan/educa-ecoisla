@@ -7,7 +7,7 @@ export const Actions = () => {
 
             <h2 className="m-6 text-2xl w-full text-center text-gray-900 font-extrabold">ACTIVIDADES</h2>
 
-            <div className="grid grid-cols-3 lg:grid-cols-4 gap-3 lg:gap-12">
+            <div className="grid grid-cols-3 lg:grid-cols-4 gap-3 xl:gap-12">
 
                 <ActivityTarget size={250} text="Talleres en áula" />
                 <ActivityTarget size={250} text="Salidas al campo" />

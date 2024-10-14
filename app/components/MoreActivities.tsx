@@ -5,7 +5,7 @@ export const MoreActivities = ({text}: {text: string}) => {
     return (
         <div className="lg:col-span-3 h-auto">
 
-            <div className="flex justify-center items-center h-[23vw] lg:h-[210px] bg-custom-light-bg bg-opacity-10 rounded-lg">
+            <div className="flex justify-center items-center h-5/6 bg-custom-light-bg bg-opacity-10 rounded-lg">
 
                 <Point />
                 <Point />
