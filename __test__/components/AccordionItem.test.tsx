@@ -13,7 +13,6 @@ describe("AccordionItem component", () => {
 
     it("render", () => {
 
-
         expect(screen.getByText(title)).toBeDefined();
         expect(screen.getByText(description)).toBeDefined();
 

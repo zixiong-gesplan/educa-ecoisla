@@ -3,7 +3,7 @@ import { useState } from "react";
 
 interface AccordionitemProps extends React.HtmlHTMLAttributes<HTMLDivElement> {
     title: string,
-    description: string
+    description: string,
 }
 
 export const AccordionItem = ({title, description, ...props}:AccordionitemProps) => {
