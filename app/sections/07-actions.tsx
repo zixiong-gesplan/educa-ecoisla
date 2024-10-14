@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ActivityTarget } from "../components/ActivityTarget";
 import { MoreActivities } from "../components/MoreActivities";
 
@@ -16,6 +17,17 @@ export const Actions = () => {
                 <ActivityTarget size={250} text="Colaboraciones" />
 
                 <MoreActivities text="Más actividades" />
+
+            </div>
+            <div className=" w-full flex justify-center items-center">
+                
+                <Link href="#" className="text-custom-light-bg text-lg sm:text-2xl text-center mt-6">
+                    Accede a todas las actividades realizadas
+                </Link>
+
+                <svg className="w-6 h-6 text-custom-light-bg dark:text-white  mt-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                </svg>
 
             </div>
 

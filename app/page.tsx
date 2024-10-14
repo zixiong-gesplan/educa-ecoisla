@@ -3,7 +3,8 @@ import { Objetives } from "./sections/04-objetives";
 import { Targets } from "./sections/05-targets";
 import { Tools } from "./sections/06-tools";
 import { Actions } from "./sections/07-actions";
-import { Footer } from "./sections/08-footer";
+import { Collaborations } from "./sections/08-Collaborations";
+import { Footer } from "./sections/09-footer";
 
 export default function Home() {
 	return (
@@ -16,7 +17,9 @@ export default function Home() {
 				<section className="h-6"></section>
 				<Tools></Tools>
 				<Actions></Actions>
-				<section className="h-20"></section>
+				<section className="h-10"></section>
+				<Collaborations />
+
 			</main>
 			<Footer></Footer>
 		</>
