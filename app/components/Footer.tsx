@@ -21,9 +21,9 @@ export const FooterBase = ({ copy_right, telephone, email }: contactProp) => {
 				</div>
 
 				<div className="flex justify-center items-center md:items-end flex-row md:flex-col gap-y-2 md:gap-y-4 w-full md:w-1/4 mt-4 md:mt-0">
-					<SocialButton d={SVGCodes.Facebook} url="#" className="text-white h-8 w-8 md:h-8 md:w-8 hover:bg-white hover:bg-opacity-15"/>
-					<SocialButton d={SVGCodes.Instagram} url="#" className="text-white h-8 w-8 md:h-8 md:w-8 hover:bg-white hover:bg-opacity-15" />
-					<SocialButton d={SVGCodes.Youtube} url="#" className="text-white h-8 w-8 md:h-8 md:w-8 hover:bg-white hover:bg-opacity-15" />
+					<SocialButton d={SVGCodes.Facebook} url="#" className="text-white h-7 w-7 md:h-7 md:w-7 hover:bg-white hover:bg-opacity-15"/>
+					<SocialButton d={SVGCodes.Instagram} url="#" className="text-white h-7 w-7 md:h-7 md:w-7 hover:bg-white hover:bg-opacity-15" />
+					<SocialButton d={SVGCodes.Youtube} url="#" className="text-white h-7 w-7 md:h-7 md:w-7 hover:bg-white hover:bg-opacity-15" />
 				</div>
 
 			</div>
