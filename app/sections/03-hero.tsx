@@ -5,7 +5,7 @@ import { SVGCodes } from "../types/SVG-codes";
 
 export const Hero = () => {
 	return (
-		<section>
+		<section id="inicio">
 			<div className="grid max-w-screen-xl px-0 sm:px-2 py-8 mx-4 lg:gap-8 xl:gap-0 lg:py-16 xl:grid-cols-12">
 				<div className="mr-auto place-self-center xl:col-span-7">
 					<h2 className="text-2xl sm:text-5xl">La educación ambiental supone una pieza importante en la conservación del territorio.</h2>
