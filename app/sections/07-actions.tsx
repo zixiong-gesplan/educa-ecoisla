@@ -4,7 +4,7 @@ import { MoreActivities } from "../components/MoreActivities";
 
 export const Actions = () => {
     return (
-        <section className="mx-4 max-w-screen-xl">
+        <section id="actividades" className="mx-4 max-w-screen-xl">
 
             <h2 className="m-6 text-2xl w-full text-center text-gray-900 font-extrabold">ACTIVIDADES</h2>
 
