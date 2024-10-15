@@ -10,5 +10,6 @@ export const Footer = () => {
                 email="educaecoisla@gesplan.es"
             />
 
-        </section>);
+        </section>
+    );
 }
