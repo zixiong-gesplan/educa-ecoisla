@@ -5,7 +5,7 @@ import { ImageWrapper as Image } from "../components/Image";
 
 export const Collaborations = () => {
 	return (
-		<section className="mx-4 max-w-screen-xl w-full">
+		<section className="mx-4 max-w-screen-xl w-full mb-4">
 
 			<h3 className="w-full mb-6 md:mb-10 text-xl sm:text-3xl text-center text-black font-bold">En colaboración de</h3>
 
