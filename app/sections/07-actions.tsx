@@ -22,7 +22,7 @@ export const Actions = () => {
             <div className=" w-full flex justify-center items-center">
 
                 <Link
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSfO3aylXbvJujHBKCc4Kr23IbtlyFnKiuugB5A1MGx93ioiYQ/closedform"
+                    href="#"
                     className="text-custom-light-bg text-lg sm:text-2xl text-center mt-6">
                     Accede a todas las actividades realizadas
                 </Link>

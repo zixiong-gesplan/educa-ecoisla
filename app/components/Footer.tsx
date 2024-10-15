@@ -28,8 +28,6 @@ export const FooterBase = ({ copy_right, telephone, email }: contactProp) => {
 
 			</div>
 
-
-
 		</footer>
 	);
 };
