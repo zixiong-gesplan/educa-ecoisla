@@ -3,7 +3,7 @@ import { Objetives } from "./sections/04-objetives";
 import { Targets } from "./sections/05-targets";
 import { Tools } from "./sections/06-tools";
 import { Actions } from "./sections/07-actions";
-import { Collaborations } from "./sections/08-ollaborations";
+import { Collaborations } from "./sections/08-collaborations";
 import { Footer } from "./sections/09-footer";
 
 export default function Home() {
