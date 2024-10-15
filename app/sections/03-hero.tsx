@@ -23,6 +23,7 @@ export const Hero = () => {
 						<ButtonLight
 							content="Próxima actividad"
 							d={SVGCodes.ArrowUpRight}
+							href="https://docs.google.com/forms/d/e/1FAIpQLSfO3aylXbvJujHBKCc4Kr23IbtlyFnKiuugB5A1MGx93ioiYQ/closedform"
 						>
 						</ButtonLight>
 
