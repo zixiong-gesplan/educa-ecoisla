@@ -20,13 +20,15 @@ export const Actions = () => {
 
             </div>
             <div className=" w-full flex justify-center items-center">
-                
-                <Link href="#" className="text-custom-light-bg text-lg sm:text-2xl text-center mt-6">
+
+                <Link
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfO3aylXbvJujHBKCc4Kr23IbtlyFnKiuugB5A1MGx93ioiYQ/closedform"
+                    className="text-custom-light-bg text-lg sm:text-2xl text-center mt-6">
                     Accede a todas las actividades realizadas
                 </Link>
 
                 <svg className="w-6 h-6 text-custom-light-bg dark:text-white  mt-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
+                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 12H5m14 0-4 4m4-4-4-4" />
                 </svg>
 
             </div>
