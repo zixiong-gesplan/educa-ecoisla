@@ -5,11 +5,13 @@ export const ImageWrapper = ({
     alt,
     size = 48,
     className,
+    layout="raw"
 }: {
     src: string,
     alt: string,
     size?: number,
     className?: string,
+    layout?: string
 }) => {
     return <Image
         src={src}
@@ -17,6 +19,7 @@ export const ImageWrapper = ({
         alt={alt}
         width={size}
         height={size}
+        layout={layout}
         className={className}
     />
 }

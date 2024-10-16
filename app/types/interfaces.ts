@@ -6,3 +6,7 @@ export interface ImageData {
     url: string;
     download_url: string;
 }
+
+export interface MasonryGridProps {
+    images: ImageData[];
+}

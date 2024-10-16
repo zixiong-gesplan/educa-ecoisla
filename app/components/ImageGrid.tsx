@@ -1,12 +1,11 @@
 "use client"
 
 import React, { useState, useEffect } from "react";
+import type { ImageData } from "../types/interfaces";
 
-import { ImageWrapper as Image } from "./Image"
-import type { ImageData } from "../types/interfaces"
+import { MasonryGrid } from "./MasonryGrid";
 
-
-export const ImageGrid = async () => {
+export const ImageGrid = () => {
     const [images, setImages] = useState<ImageData[]>([]);
 
     const fetchImages = async () => {
@@ -27,14 +26,9 @@ export const ImageGrid = async () => {
     }, []);
 
     return (
-        <div className="w-full flex justify-center">
-            <div className="flex flex-row flex-wrap justify-center items-center gap-4 py-8 max-w-screen-xl">
-                {images.map((image) => (
-                    <div key={image.id} >
-                        <Image className="h-auto w-52 max-w-full rounded-lg" src={image.download_url} alt={image.author} />
-                    </div>
-                ))}
-            </div>
-        </div>
+        <MasonryGrid images={images} />
     );
+
 }
+
+
