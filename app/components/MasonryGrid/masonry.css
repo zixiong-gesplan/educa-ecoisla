@@ -35,7 +35,8 @@
 /* Style your items */
 .my-masonry-grid_column>div {
 	/* change div to reference your elements you put in <Masonry> */
-	background: grey;
+	box-sizing: border-box;
+    background: grey;
 	margin-bottom: 10px;
 	border-radius: 5%;
 	overflow: hidden;
