@@ -1,10 +1,13 @@
 import { Suspense } from "react";
 import { ImageGrid } from "../components/ImageGrid";
+import { MasonrySkeleton } from "../components/MasonryGrid/MasonrySkeleton";
 
-export default function Gallery() {
+export default async function Gallery() {
     return (
-        <Suspense fallback={<p>Cargando Imágenes...</p>}>
-            <ImageGrid />
-        </Suspense>
+        <div className="min-h-screen">
+            <Suspense fallback={<MasonrySkeleton />}>
+                <ImageGrid />
+            </Suspense>
+        </div>
     );
 };
