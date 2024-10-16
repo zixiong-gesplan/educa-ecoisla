@@ -15,10 +15,10 @@ export const MasonryGrid = async ({ images }: {images: ImageData[]}) => {
     };
 
     return (
-        <div className="flex justify-center w-full m-4">
+        <div className="flex justify-center box-border w-full p-4">
             <Masonry
                 breakpointCols={breakpointColumnsObj}
-                className="my-masonry-grid w-full max-w-screen-xl"
+                className="box-border my-masonry-grid w-full max-w-screen-xl"
                 columnClassName="my-masonry-grid_column"
             >
                 {images.map((image) => (
@@ -26,7 +26,7 @@ export const MasonryGrid = async ({ images }: {images: ImageData[]}) => {
                         <Image
                             src={image.download_url}
                             alt={image.author}
-                            className="w-full"
+                            className="box-border w-full"
                         />
                     </div>
                 ))}
