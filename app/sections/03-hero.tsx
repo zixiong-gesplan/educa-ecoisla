@@ -17,6 +17,7 @@ export const Hero = () => {
 						<ButtonDark
 							content="Galería de Actividades"
 							d={SVGCodes.Image}
+							href="/gallery"
 						>
 						</ButtonDark>
 
