@@ -26,8 +26,7 @@ export const MasonryGrid = async ({ images }: {images: ImageData[]}) => {
                         <Image
                             src={image.download_url}
                             alt={image.author}
-                            layout="responsive"
-                            className="bg:animate-pulse"
+                            className="w-full"
                         />
                     </div>
                 ))}
