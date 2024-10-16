@@ -1,3 +1,7 @@
+import { ImagesGallery } from "../components/ImagesGallery";
+
 export default function Gallery() {
-    return <h1>Hola Gallery</h1>
-}
+
+    return <ImagesGallery />
+
+};
