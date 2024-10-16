@@ -1,8 +1,9 @@
 "use client"
 
-import type { MasonryGridProps } from "../types/interfaces";
-import { ImageWrapper as Image } from "./Image";
+import type { MasonryGridProps } from "../../types/interfaces";
+import { ImageWrapper as Image } from "../Image";
 import Masonry from "react-masonry-css";
+import "./masonry.css";
 
 export const MasonryGrid: React.FC<MasonryGridProps> = async ({ images }) => {
     
@@ -25,7 +26,6 @@ export const MasonryGrid: React.FC<MasonryGridProps> = async ({ images }) => {
                     <Image
                         src={image.download_url}
                         alt={image.author}
-                        className="rounded-lg"
                         layout="responsive"
                     />
                 </div>
