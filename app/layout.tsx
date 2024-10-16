@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import { Header } from "./sections/01-header";
-import { NavBar } from "./sections/02-navbar";
+import { Footer } from "./sections/09-footer";
 
 const MPLUS1 = M_PLUS_Rounded_1c({
 	weight: ["700", "900"],
@@ -27,8 +27,8 @@ export default function RootLayout({
 		<html lang="es">
 			<body className={MPLUS1.className}>
 				<Header></Header>
-				<NavBar></NavBar>
 				{children}
+				<Footer></Footer>
 				<Analytics />
 				<SpeedInsights />
 			</body>
