@@ -1,7 +1,10 @@
-import { ImagesGallery } from "../components/ImagesGallery";
+import { Suspense } from "react";
+import { ImageGrid } from "../components/ImageGrid";
 
 export default function Gallery() {
-
-    return <ImagesGallery />
-
+    return (
+        <Suspense fallback={<p>Cargando Imágenes...</p>}>
+            <ImageGrid />
+        </Suspense>
+    );
 };
