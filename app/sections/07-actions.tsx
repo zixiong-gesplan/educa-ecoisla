@@ -22,7 +22,7 @@ export const Actions = () => {
             <div className=" w-full flex justify-center items-center">
 
                 <Link
-                    href="#"
+                    href="/gallery"
                     className="text-custom-light-bg text-lg sm:text-2xl text-center mt-6">
                     Accede a todas las actividades realizadas
                 </Link>
