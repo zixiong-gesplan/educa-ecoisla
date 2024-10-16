@@ -5,7 +5,7 @@ export const ImageWrapper = ({
     alt,
     size = 48,
     className,
-    layout="raw"
+    layout = "raw"
 }: {
     src: string,
     alt: string,
