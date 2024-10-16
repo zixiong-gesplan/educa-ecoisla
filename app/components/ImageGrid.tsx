@@ -1,7 +1,7 @@
 import type { ImageData } from "../types/interfaces";
 import { MasonryGrid } from "./MasonryGrid";
 
-function sleep(ms) {
+function sleep(ms:number) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
