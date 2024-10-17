@@ -6,7 +6,7 @@
 }
 
 .my-masonry-grid_column {
-	padding: 10px 15px;
+	padding: 0 5px;
 	background-clip: padding-box;
 }
 
@@ -14,6 +14,6 @@
 	box-sizing: border-box;
     background: grey;
 	margin-bottom: 10px;
-	border-radius: 5%;
+	border-radius: 3%;
 	overflow: hidden;
 }
