@@ -5,19 +5,23 @@ import { useState, useEffect } from "react";
 import type { ImageData } from "../../types/IImageData";
 import { ImageWrapper as Image } from "../Image";
 import Masonry from "react-masonry-css";
+import useWindowSize from "./useWindowSize";
+
 import "./masonry.css";
 
+const getColumns = (width: number) => {
+    if (width <= 300) return 1; //Columnas pantallas pequeñas
+    if (width <= 700) return 2;
+    if (width <= 1100) return 3;
+    return 4; // Columnas pantallas grandes
+};
+
 export const MasonryGrid = ({ images }: { images: ImageData[] }) => {
+    const windowSize = useWindowSize(400);
+
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const [selectedImage, setSelectedImage] = useState<string>("");
     const [isVisible, setIsVisible] = useState(false);
-
-    const breakpointColumnsObj = {
-        default: 4, // Número de columnas por defecto (escritorio)
-        1100: 3, // Tres columnas en pantallas medianas
-        700: 2, // Dos columnas en pantallas pequeñas
-        300: 1, // Una columna en pantallas muy pequeñas
-    };
 
     const openModal = (image: string) => {
         setSelectedImage(image);
@@ -36,7 +40,7 @@ export const MasonryGrid = ({ images }: { images: ImageData[] }) => {
     return (
         <div className="flex justify-center box-border w-full p-2 md:p-4">
             <Masonry
-                breakpointCols={breakpointColumnsObj}
+                breakpointCols={getColumns(windowSize)}
                 className="box-border my-masonry-grid w-full max-w-screen-xl"
                 columnClassName="my-masonry-grid_column"
             >
