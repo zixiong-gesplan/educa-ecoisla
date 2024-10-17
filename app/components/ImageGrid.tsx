@@ -1,4 +1,4 @@
-import type { ImageData } from "../types/interfaces";
+import type { ImageData } from "../types/IImageData";
 import { MasonryGrid } from "./MasonryGrid";
 
 function sleep(ms:number) {
