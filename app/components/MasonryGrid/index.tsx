@@ -1,6 +1,6 @@
 "use client"
 
-import type { ImageData } from "../../types/interfaces";
+import type { ImageData } from "../../types/IImageData";
 import { ImageWrapper as Image } from "../Image";
 import Masonry from "react-masonry-css";
 import "./masonry.css";
