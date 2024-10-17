@@ -10,10 +10,11 @@ import useWindowSize from "./useWindowSize";
 import "./masonry.css";
 
 const getColumns = (width: number) => {
-    if (width <= 300) return 1; //Columnas pantallas pequeñas
-    if (width <= 700) return 2;
-    if (width <= 1100) return 3;
-    return 4; // Columnas pantallas grandes
+    if (width <= 380) return 1; //Columnas pantallas pequeñas
+    if (width <= 640) return 2;
+    if (width <= 1024) return 3;
+    if (width <= 1280) return 4;
+    return 5; // Columnas pantallas grandes
 };
 
 export const MasonryGrid = ({ images }: { images: ImageData[] }) => {
