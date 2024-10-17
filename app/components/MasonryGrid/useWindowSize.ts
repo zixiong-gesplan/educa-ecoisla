@@ -1,16 +1,16 @@
 import { useState, useEffect } from 'react';
 
-const useWindowSize = (init_value: number) => {
-    const [windowSize, setWindowSize] = useState<number>(init_value);
+const useWindowSize = () => {
+    const [windowSize, setWindowSize] = useState<number>();
 
     useEffect(() => {
         const handleResize = () => {
             setWindowSize(window.innerWidth);
         };
 
-        window.addEventListener('resize', handleResize);
         handleResize();
-
+        window.addEventListener('resize', handleResize);
+        
         // Limpia el event listener cuando el componente se desmonte
         return () => window.removeEventListener('resize', handleResize);
     }, []);
