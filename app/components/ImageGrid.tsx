@@ -1,10 +1,6 @@
 import type { ImageData } from "../types/IImageData";
 import { MasonryGrid } from "./MasonryGrid";
 
-function sleep(ms:number) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
-
 export const ImageGrid = async () => {
     let data: ImageData[] = [];
 
@@ -20,7 +16,6 @@ export const ImageGrid = async () => {
     }
 
     await fetchImages();
-    await sleep(2000);
 
     return (
         <MasonryGrid images={data} />
