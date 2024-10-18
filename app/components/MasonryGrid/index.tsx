@@ -1,12 +1,16 @@
 "use client";
 
-import { useState, useEffect } from "react";
 
-import type { ImageData } from "../../types/IImageData";
 import { ImageWrapper as Image } from "../Image";
 import { FullScreenSpinner } from './FullScreenSpinner';
 import Masonry from "react-masonry-css";
+
 import useWindowSize from "./useWindowSize";
+import { useModal } from "./useModal";
+
+import { Modal } from "./Modal";
+
+import type { ImageData } from "../../types/IImageData";
 
 import "./masonry.css";
 
@@ -20,41 +24,7 @@ const getColumns = (width: number) => {
 
 export const MasonryGrid = ({ images }: { images: ImageData[]; }) => {
     const windowSize = useWindowSize();
-
-    const [isOpen, setIsOpen] = useState<boolean>(false);
-    const [selectedImage, setSelectedImage] = useState<string>("");
-    const [isVisible, setIsVisible] = useState(false);
-
-
-    const openModal = (image: string) => {
-        setSelectedImage(image);
-        setIsOpen(true);
-    };
-
-    const closeModal = () => {
-        setIsOpen(false);
-        setSelectedImage("");
-    };
-
-    useEffect(() => {
-        setIsVisible(isOpen);
-    }, [isOpen]);
-
-    useEffect(() => {
-        if (isOpen) {
-            const handleKeyDown = (event: KeyboardEvent) => {
-                if (event.key === 'Escape') {
-                    closeModal();
-                }
-            };
-
-            window.addEventListener('keydown', handleKeyDown);
-
-            return () => {
-                window.removeEventListener('keydown', handleKeyDown);
-            };
-        }
-    }, [isOpen]);
+    const { selectedImage, isVisible, isOpen, openModal, closeModal} = useModal()
 
     if (!windowSize) {
         return <FullScreenSpinner />;
@@ -68,7 +38,7 @@ export const MasonryGrid = ({ images }: { images: ImageData[]; }) => {
                 columnClassName="my-masonry-grid_column"
             >
                 {images.map((image) => (
-                    <div key={image.id} onClick={() => openModal(image.download_url)} className="cursor-pointer">
+                    <div key={image.id} onClick={() => openModal(image)} className="cursor-pointer">
                         <Image
                             src={image.download_url}
                             alt={image.author}
@@ -78,21 +48,7 @@ export const MasonryGrid = ({ images }: { images: ImageData[]; }) => {
                 ))}
             </Masonry>
 
-            {isOpen && (
-                <div className={`transition-opacity duration-1000 delay-200 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-                    <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-                        <div className="relative">
-                            <Image src={selectedImage} alt="Selected" className="w-full h-full max-w-full max-h-screen" />
-                            <button
-                                className="absolute top-2 right-4 text-white text-3xl"
-                                onClick={closeModal}
-                            >
-                                &times;
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            )}
+            {isOpen && <Modal selectedImage={selectedImage} isVisible={isVisible} closeModal={closeModal} />}
 
         </div>
 
