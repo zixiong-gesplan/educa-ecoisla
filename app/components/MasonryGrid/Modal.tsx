@@ -2,7 +2,6 @@
 
 import { ImageWrapper as Image } from "../Image";
 import { ImageData } from "@/app/types/IImageData";
-import { useModal } from "./useModal";
 
 interface Props {
     selectedImage?: ImageData,
