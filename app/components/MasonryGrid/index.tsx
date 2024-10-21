@@ -1,38 +1,56 @@
-"use client"
+"use client";
 
-import type { ImageData } from "../../types/interfaces";
+
 import { ImageWrapper as Image } from "../Image";
+import { FullScreenSpinner } from './FullScreenSpinner';
 import Masonry from "react-masonry-css";
+
+import useWindowSize from "./useWindowSize";
+import { useModal } from "./useModal";
+
+import { Modal } from "./Modal";
+
+import type { ImageData } from "../../types/IImageData";
+
 import "./masonry.css";
 
-export const MasonryGrid = async ({ images }: {images: ImageData[]}) => {
+const getColumns = (width: number) => {
+    if (width <= 380) return 1; //Columnas pantallas pequeñas
+    if (width <= 640) return 2;
+    if (width <= 1024) return 3;
+    if (width <= 1280) return 4;
+    return 5; // Columnas pantallas grandes
+};
 
-    const breakpointColumnsObj = {
-        default: 4, // Número de columnas por defecto (escritorio)
-        1100: 3, // Tres columnas en pantallas medianas
-        700: 2, // Dos columnas en pantallas pequeñas
-        300: 1, // Una columna en pantallas muy pequeñas
-    };
+export const MasonryGrid = ({ images }: { images: ImageData[]; }) => {
+    const windowSize = useWindowSize();
+    const { selectedImage, isVisible, isOpen, openModal, closeModal} = useModal()
+
+    if (!windowSize) {
+        return <FullScreenSpinner />;
+    }
 
     return (
-        <div className="flex justify-center w-full m-4">
+        <div className="flex justify-center box-border w-full h-full p-2 md:p-4">
             <Masonry
-                breakpointCols={breakpointColumnsObj}
-                className="my-masonry-grid w-full max-w-screen-xl"
+                breakpointCols={getColumns(windowSize)}
+                className="box-border my-masonry-grid w-full max-w-screen-xl"
                 columnClassName="my-masonry-grid_column"
             >
                 {images.map((image) => (
-                    <div key={image.id}>
+                    <div key={image.id} onClick={() => openModal(image)} className="cursor-pointer">
                         <Image
                             src={image.download_url}
                             alt={image.author}
-                            layout="responsive"
-                            className="bg:animate-pulse"
+                            className="box-border w-full"
                         />
                     </div>
                 ))}
             </Masonry>
+
+            {isOpen && <Modal selectedImage={selectedImage} isVisible={isVisible} closeModal={closeModal} />}
+
         </div>
 
     );
-}
+};

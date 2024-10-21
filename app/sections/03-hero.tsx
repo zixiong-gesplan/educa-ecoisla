@@ -8,15 +8,16 @@ export const Hero = () => {
 		<section id="inicio">
 			<div className="grid max-w-screen-xl px-0 sm:px-2 py-8 mx-4 lg:gap-8 xl:gap-0 lg:py-16 xl:grid-cols-12">
 				<div className="mr-auto place-self-center xl:col-span-7">
-					<h2 className="text-2xl sm:text-5xl">La educación ambiental supone una pieza importante en la conservación del territorio.</h2>
-					<p className="mt-4 text-lg sm:text-2xl">La consejería de Medio Ambiente del Cabildo de Gran Canaria ha implementado un Plan de Acción de Educación Ambiental
+					<h2 className="mb-4 text-2xl sm:text-5xl">La educación ambiental supone una pieza importante en la conservación del territorio.</h2>
+					<p className="text-lg sm:text-2xl">La consejería de Medio Ambiente del Cabildo de Gran Canaria ha implementado un Plan de Acción de Educación Ambiental
 						para la Sostenibilidad, centrado en la concienciación social sobre la conservación del medio ambiente.
 					</p>
-					<div className="flex mt-6 md:w-2/3 flex-row justify-start gap-2" >
+					<div className="flex mt-10 sm:w-5/6 flex-row justify-start gap-2 sm:gap-3 md:gap-4" >
 
 						<ButtonDark
-							content="Galería de Actividades"
-							d={SVGCodes.Image}
+							content="Galería actividades"
+							d={SVGCodes.Image2}
+							href="/gallery"
 						>
 						</ButtonDark>
 
