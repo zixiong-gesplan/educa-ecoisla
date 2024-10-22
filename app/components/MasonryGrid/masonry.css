@@ -1,27 +1,36 @@
-.my-masonry-grid {
+/*
+* Usar nombres de clases de CSS más descriptitivas, en el caso de necesitarlas
+*/
+
+.masonry-grid {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
 	width: auto;
 }
 
-.my-masonry-grid_column {
+.masonry-grid-column {
 	padding: 0 8px;
 	background-clip: padding-box;
 }
 
-.my-masonry-grid_column>div {
+.masonry-grid-column>button {
 	box-sizing: border-box;
     background: grey;
 	margin-bottom: 16px;
 	border-radius: 3%;
 }
 
-.my-masonry-grid_column img {
+.masonry-grid-column img {
     border-radius: 3%;
     transition: transform 0.3s ease;
 }
 
-.my-masonry-grid_column img:hover {
+.masonry-grid-column img:hover {
+    transform: scale(1.08);
+}
+
+
+.masonry-grid-column button:focus img {
     transform: scale(1.08);
 }

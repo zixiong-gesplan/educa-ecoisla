@@ -9,10 +9,10 @@ const config: Config = {
 	theme: {
 		extend: {
 			colors: {
-				'custom-dark-green': '#024E3D',
-				'custom-light-green': '#64ACAA',
-				'custom-light-bg': '#83AC50',
-				'custom-green': {
+				'dark-green': '#024E3D',
+				'light-cyan': '#64ACAA',
+				'lima': '#83AC50',
+				'green': {
 					100: 'hsl(166.58, 95%, 85%)',  // Muy claro
 					200: 'hsl(166.58, 95%, 75%)',
 					300: 'hsl(166.58, 95%, 65%)',

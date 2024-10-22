@@ -1,35 +1,38 @@
 import { useState, useEffect } from "react";
 
-import type { ImageData } from "../../types/IImageData";
+import type { ImageData } from "../../types/ImageData";
+const KEYS = {
+    ESCAPE: 'Escape',
 
+}
 export const useModal = () => {
-    const [isOpen, setIsOpen] = useState<boolean>(false);
-    const [selectedImage, setSelectedImage] = useState<ImageData | undefined>(undefined);
-    const [isVisible, setIsVisible] = useState(false);
+    const [status, setStatus] = useState<boolean>(false);
+    const [image, setImage] = useState<ImageData | undefined>(undefined);
+    const [visible, setVisible] = useState(false);
 
-    const openModal = (image: ImageData) => {
-        setSelectedImage(image);
-        setIsOpen(true);
+    const open = (image: ImageData) => {
+        setImage(image);
+        setStatus(true);
     };
 
-    const closeModal = () => {
-        setIsOpen(false);
-        setSelectedImage(undefined);
+    const close = () => {
+        setStatus(false);
+        setImage(undefined);
     };
 
     useEffect(() => {
-        setIsVisible(isOpen);
-    }, [isOpen]);
+        setVisible(status);
+    }, [status]);
 
     useEffect(() => {
-        if (!isOpen) {
+        if (!status) {
            return;
         }
         const handleKeyDown = (event: KeyboardEvent) => {
-            if (event.key !== 'Escape') {
+            if (event.key !== KEYS.ESCAPE) {
                 return;
             }
-            closeModal();
+            close();
         };
 
         window.addEventListener('keydown', handleKeyDown);
@@ -37,8 +40,8 @@ export const useModal = () => {
         return () => {
             window.removeEventListener('keydown', handleKeyDown);
         };
-    }, [isOpen]);
+    }, [status]);
 
-    return { selectedImage, isVisible, isOpen,  openModal, closeModal };
+    return { image, visible, status,  open, close };
 
 }

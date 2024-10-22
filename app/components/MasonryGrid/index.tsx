@@ -1,56 +1,51 @@
 "use client";
 
-
 import { ImageWrapper as Image } from "../Image";
-import { FullScreenSpinner } from './FullScreenSpinner';
+import { FullScreenSpinner } from "./FullScreenSpinner";
 import Masonry from "react-masonry-css";
-
 import useWindowSize from "./useWindowSize";
 import { useModal } from "./useModal";
-
 import { Modal } from "./Modal";
-
-import type { ImageData } from "../../types/IImageData";
+import type { ImageData } from "../../types/ImageData";
 
 import "./masonry.css";
+import { getColumns } from "./getColumns";
 
-const getColumns = (width: number) => {
-    if (width <= 380) return 1; //Columnas pantallas pequeñas
-    if (width <= 640) return 2;
-    if (width <= 1024) return 3;
-    if (width <= 1280) return 4;
-    return 5; // Columnas pantallas grandes
-};
+export const MasonryGrid = ({ images }: { images: ImageData[] }) => {
+  const windowSize = useWindowSize();
+  const { image, visible, status, open, close } = useModal();
 
-export const MasonryGrid = ({ images }: { images: ImageData[]; }) => {
-    const windowSize = useWindowSize();
-    const { selectedImage, isVisible, isOpen, openModal, closeModal} = useModal()
+  if (!windowSize) {
+    return <FullScreenSpinner />;
+  }
+  /**
+   * se cambia el div del contenedor de cada imagen, por un button,
+   * button tiene habilitado el control por teclado
+   */
+  return (
+    <div className="flex justify-center box-border w-full h-full p-2 md:p-4">
+      <Masonry
+        breakpointCols={getColumns(windowSize)}
+        className="box-border masonry-grid w-full max-w-screen-xl"
+        columnClassName="masonry-grid-column"
+      >
+        {images.map((image) => (
+          <button
+            key={image.id}
+            onClick={() => open(image)}
+          >
+            <Image
+              src={image.download_url}
+              alt={image.author}
+              className="box-border w-full"
+            />
+          </button>
+        ))}
+      </Masonry>
 
-    if (!windowSize) {
-        return <FullScreenSpinner />;
-    }
-
-    return (
-        <div className="flex justify-center box-border w-full h-full p-2 md:p-4">
-            <Masonry
-                breakpointCols={getColumns(windowSize)}
-                className="box-border my-masonry-grid w-full max-w-screen-xl"
-                columnClassName="my-masonry-grid_column"
-            >
-                {images.map((image) => (
-                    <div key={image.id} onClick={() => openModal(image)} className="cursor-pointer">
-                        <Image
-                            src={image.download_url}
-                            alt={image.author}
-                            className="box-border w-full"
-                        />
-                    </div>
-                ))}
-            </Masonry>
-
-            {isOpen && <Modal selectedImage={selectedImage} isVisible={isVisible} closeModal={closeModal} />}
-
-        </div>
-
-    );
+      {status && (
+        <Modal image={image} visible={visible} close={close} />
+      )}
+    </div>
+  );
 };

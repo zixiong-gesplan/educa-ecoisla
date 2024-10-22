@@ -1,26 +1,19 @@
-import type { ImageData } from "../types/IImageData";
+import type { ImageData } from "../types/ImageData";
 import { MasonryGrid } from "./MasonryGrid";
 
 export const ImageGrid = async () => {
-    let data: ImageData[] = [];
+  let data: ImageData[] = [];
 
-    const fetchImages = async () => {
-        try {
-
-            const response = await fetch("https://picsum.photos/v2/list");
-            data = await response.json();
-
-        } catch (error) {
-            console.error("Error fetching images:", error);
-        }
+  const fetchImages = async () => {
+    try {
+      const response = await fetch("https://picsum.photos/v2/list");
+      data = await response.json();
+    } catch (error) {
+      console.error("Error fetching images:", error);
     }
+  };
 
-    await fetchImages();
+  await fetchImages();
 
-    return (
-        <MasonryGrid images={data} />
-    );
-
-}
-
-
+  return <MasonryGrid images={data} />;
+};

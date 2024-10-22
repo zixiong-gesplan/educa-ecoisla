@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 
 import SocialButton from "@/app/components/SocialButton";
-import { SVGCodes } from "@/app/types/SVG-codes";
+import { SVG } from "@/app/enums/SVG";
 
 describe("Card component", () => {
 
@@ -11,7 +11,7 @@ describe("Card component", () => {
 
     it("exists description", async () => {
         render(<SocialButton
-            d={SVGCodes.Facebook}
+            d={SVG.FACEBOOK}
             url={url}
         />);
 
