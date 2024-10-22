@@ -10,7 +10,7 @@ export const Actions = () => {
 
             <div className="grid grid-cols-3 lg:grid-cols-4 gap-3 xl:gap-12">
 
-                <ActivityTarget size={250} text="Talleres en áula" />
+                <ActivityTarget size={250} text="Talleres en aula" />
                 <ActivityTarget size={250} text="Salidas al campo" />
                 <ActivityTarget size={250} text="Rutas al campo" />
                 <ActivityTarget size={250} text="Ferias" />
