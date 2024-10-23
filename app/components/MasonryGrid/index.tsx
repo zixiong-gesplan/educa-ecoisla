@@ -40,8 +40,8 @@ export const MasonryGrid = ({ images }: { images: ImageData[]; }) => {
                 {images.map((image) => (
                     <div key={image.id} onClick={() => openModal(image)} className="cursor-pointer">
                         <Image
-                            src={image.download_url}
-                            alt={image.author}
+                            src={image.url_img}
+                            alt={image.title}
                             className="box-border w-full"
                         />
                     </div>
