@@ -8,7 +8,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 1",
+    title: "Título 1",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
@@ -19,7 +19,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 2",
+    title: "Título 2",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
@@ -30,7 +30,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 3",
+    title: "Título 3",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
@@ -41,7 +41,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 4",
+    title: "Título 4",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
@@ -52,7 +52,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 5",
+    title: "Título 5",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
@@ -63,7 +63,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 6",
+    title: "Título 6",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
@@ -74,7 +74,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 7",
+    title: "Título 7",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
@@ -85,7 +85,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 8",
+    title: "Título 8",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
@@ -96,7 +96,7 @@ export const mockDataList: ImageData[] = [
     width: 751,
     url_img: "/informacion.png",
     url_event: "#",
-    title: "Titulo 9",
+    title: "Título 9",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, " +
     "lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor.",
   },
