@@ -16,10 +16,10 @@ export const Modal = ({ selectedImage, isVisible, closeModal }: Props) => {
                 <div className="relative">
                     <Image src={selectedImage!.url_img} alt="Selected" className="w-full h-full max-w-full max-h-screen" />
                     
-                    <div className="absolute top-2 left-2 w-96 p-4 text-white bg-black bg-opacity-70 rounded-lg">
-                      <h2 className="text-2xl text-custom-light-bg">{selectedImage?.title}</h2>
-                      <p className="text-md py-3">{selectedImage?.description}</p>
-                      <p className="text-sm text-custom-light-bg"><a href={selectedImage?.url_event}>Más sobre la actividad...</a></p>
+                    <div className="absolute top-2 left-2 w-64 sm:w-[400px] p-4 text-white bg-black bg-opacity-70 rounded-lg">
+                      <h2 className="text-lg sm:text-2xl text-custom-light-bg">{selectedImage?.title}</h2>
+                      <p className="text-xs sm:text-base py-3">{selectedImage?.description}</p>
+                      <p className="text-xs sm:text-sm text-custom-light-bg"><a href={selectedImage?.url_event}>Más sobre la actividad...</a></p>
                     </div>
                     
                     <button
