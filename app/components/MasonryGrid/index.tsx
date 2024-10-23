@@ -38,13 +38,13 @@ export const MasonryGrid = ({ images }: { images: ImageData[]; }) => {
         columnClassName="my-masonry-grid_column"
       >
         {images.map((image) => (
-          <div key={image.id} onClick={() => openModal(image)} className="cursor-pointer">
+          <button key={image.id} onClick={() => openModal(image)} className="cursor-pointer">
             <Image
               src={image.url_img}
               alt={image.title}
               className="box-border w-full"
             />
-          </div>
+          </button>
         ))}
       </Masonry>
 
