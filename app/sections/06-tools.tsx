@@ -12,12 +12,12 @@ export const Tools = () => {
 			<Article direction="row">
 				<div className="w-full xl:w-2/3">
 					<h3 className="text-2xl sm:text-3xl text-custom-light-bg">Educación ambiental</h3>
-					<p className="border-b-2 border-custom-light-bg py-4 text-lg sm:text-xl">
+					<p className="border-b-2 border-custom-light-bg py-4 text-lg sm:text-xl dark:text-black">
 						Promover actividades educativas destinadas a la ciudadanína de Gran Canaria mediante el ámbito formal y no formal
 						(centros escolares, colectivos, administraciones locales, etc.),
 						a través de acciones como salidas de campo, campañas de sensibilización, jornadas de voluntariado, etc.
 					</p>
-					<ul className="mt-4 flex flex-col gap-4">
+					<ul className="mt-4 flex flex-col gap-4  dark:text-black">
 						<li className="flex gap-2"> <SVGTicket /> Salidas al campo</li>
 						<li className="flex gap-2"> <SVGTicket /> Campañas de sensibilización</li>
 						<li className="flex gap-2"> <SVGTicket /> Voluntariado</li>
@@ -37,11 +37,11 @@ export const Tools = () => {
 			<Article direction="flex-row-reverse">
 				<div className="w-full xl:w-2/3">
 					<h3 className="text-2xl sm:text-3xl text-custom-light-bg">Divulgación ambiental</h3>
-					<p className="border-b-2 border-custom-light-bg py-4 text-lg sm:text-xl">
+					<p className="border-b-2 border-custom-light-bg py-4 text-lg sm:text-xl dark:text-black">
 						Mediante el que se elaboran materiales divulgativos, promoviendo la difusión
 						de contenidos para el fomento de la concienciación social en determinados ámbitos.
 					</p>
-					<ul className="mt-4 flex flex-col gap-4">
+					<ul className="mt-4 flex flex-col gap-4 dark:text-black">
 						<li className="flex gap-2"> <SVGTicket /> Materiales divulgativos</li>
 						<li className="flex gap-2"> <SVGTicket /> Difusión de contenido</li>
 						<li className="flex gap-2"> <SVGTicket /> Concienciación social</li>
