@@ -1,8 +1,9 @@
 export interface ImageData {
-    id: string;
-    author: string;
-    width: number;
-    height: number;
-    url: string;
-    download_url: string;
+  id: number;
+  height: number;
+  width: number;
+  url_img: string;
+  url_event: string;
+  title: string;
+  description: string;
 }
