@@ -3,7 +3,7 @@ import { SVGCodes } from "@/app/types/SVG-codes";
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 
-describe("ButtonDark Component", () => {
+describe("ButtonLight Component", () => {
   const content = "Link to Google";
   const link = "https://google.com";
   const icon = SVGCodes.Image;
