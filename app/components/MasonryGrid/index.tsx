@@ -31,7 +31,7 @@ export const MasonryGrid = ({ images }: { images: ImageData[]; }) => {
   }
 
   return (
-    <div className="flex justify-center box-border w-full h-full p-2 md:p-4">
+    <div data-testid="mansonry-grid" className="flex justify-center box-border w-full h-full p-2 md:p-4">
       <Masonry
         breakpointCols={getColumns(windowSize)}
         className="box-border my-masonry-grid w-full max-w-screen-xl"

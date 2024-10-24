@@ -4,7 +4,7 @@ import jsonData from '../mockData/mockData.json';
 
 const data: ImageData[] = jsonData;
 
-export const ImageGrid = async () => {
+export const ImageGrid = () => {
   return (
     <MasonryGrid images={data} />
   );
