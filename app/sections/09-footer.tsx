@@ -2,7 +2,7 @@ import "../components/Footer"
 import { FooterBase } from "../components/Footer"
 export const Footer = () => {
     return (
-        <section id="pie" className="mx-0">
+        <section data-testid="footer" id="pie" className="mx-0">
 
             <FooterBase
                 telephone="628 53 20 29"
