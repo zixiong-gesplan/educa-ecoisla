@@ -6,5 +6,5 @@ export interface ImageData {
   url_event: string;
   title: string;
   description: string;
-  alt?: string;
+  alt: string;
 }
