@@ -95,4 +95,25 @@ describe("useModal hook", () => {
     expect(screen.getByTestId("isVisible").textContent).toBe('false');
     expect(screen.getByTestId("selectedImage").textContent).toBe('none');
   });
+
+  it("doesn't close the modal when other key is pressed", () => {
+    render(<TestComponent />);
+
+    const openButton = screen.getByTestId("openModal");
+
+    // Abrir el modal
+    act(() => {
+      fireEvent.click(openButton);
+    });
+
+    // Simular la pulsación de la tecla Enter
+    act(() => {
+      const event = new KeyboardEvent('keydown', { key: 'Enter' });
+      window.dispatchEvent(event);
+    });
+
+    expect(screen.getByTestId("isOpen").textContent).toBe('true');
+    expect(screen.getByTestId("isVisible").textContent).toBe('true');
+    expect(screen.getByTestId("selectedImage").textContent).toBe('Selected Image');
+  });
 });
