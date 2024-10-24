@@ -5,7 +5,7 @@ import { Hero } from "@/app/sections/03-hero";
 
 describe("Hero Component", () => {
   
-  it("Test of the render", () => {
+  it("Test of render", () => {
     render(<Hero />);
     expect(screen.getByTestId("hero")).not.toBeNull();
   });

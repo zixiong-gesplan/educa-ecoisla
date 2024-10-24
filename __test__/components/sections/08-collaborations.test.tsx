@@ -5,7 +5,7 @@ import { Collaborations } from "@/app/sections/08-collaborations";
 
 describe("Collaborations Component", () => {
   
-  it("Test of the render", () => {
+  it("Test of render", () => {
     render(<Collaborations />);
     expect(screen.getByTestId("collaborations")).not.toBeNull();
   });

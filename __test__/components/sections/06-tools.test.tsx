@@ -5,7 +5,7 @@ import { Tools } from "@/app/sections/06-tools";
 
 describe("Tools Component", () => {
   
-  it("Test of the render", () => {
+  it("Test of render", () => {
     render(<Tools />);
     expect(screen.getByTestId("tools")).not.toBeNull();
   });
