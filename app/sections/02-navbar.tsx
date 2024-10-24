@@ -3,7 +3,7 @@ import NavItem from "../components/NavItem";
 export const NavBar = () => {
 	return (
 		
-		<nav className="flex columns-6 justify-items-center justify-center w-full bg-custom-light-bg text-white p-1 lg:py-2 text-[7pt] small:text-sm sm:text-lg lg:text-xl">
+		<nav data-testid="navbar" className="flex columns-6 justify-items-center justify-center w-full bg-custom-light-bg text-white p-1 lg:py-2 text-[7pt] small:text-sm sm:text-lg lg:text-xl">
 
 			<NavItem url="#inicio" label="Inicio"></NavItem>
 			<NavItem url="#objetivos" label="Objetivos generales"></NavItem>
