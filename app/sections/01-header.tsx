@@ -6,7 +6,7 @@ export const Header = () => {
 
   return (
 
-    <header className="bg-white">
+    <header data-testid="header" className="bg-white">
 
       <div className="flex items-center justify-between p-1 sm:p-3 md:p-4 w-full">
 
