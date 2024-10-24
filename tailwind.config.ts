@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       screens: {
         'tiny': '380px',
+        'small': '450px',
       },
       colors: {
         'custom-dark-green': '#024E3D',
