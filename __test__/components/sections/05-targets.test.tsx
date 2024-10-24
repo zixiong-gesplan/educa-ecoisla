@@ -5,7 +5,7 @@ import { Targets } from "@/app/sections/05-targets";
 
 describe("Targets Component", () => {
   
-  it("Test of the render", () => {
+  it("Test of render", () => {
     render(<Targets />);
     expect(screen.getByTestId("targets")).not.toBeNull();
   });
