@@ -6,6 +6,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 1",
+    "alt": "Image 1",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -15,6 +16,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 2",
+    "alt": "Image 2",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -24,6 +26,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 3",
+    "alt": "Image 3",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -33,6 +36,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 4",
+    "alt": "Image",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -42,6 +46,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 5",
+    "alt": "Image",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -51,6 +56,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 6",
+    "alt": "Image",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -60,6 +66,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 7",
+    "alt": "Image",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -69,6 +76,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 8",
+    "alt": "Image",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -78,6 +86,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 9",
+    "alt": "Image",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -87,6 +96,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 10",
+    "alt": "Image",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   },
   {
@@ -96,6 +106,7 @@
     "url_img": "/informacion.png",
     "url_event": "#",
     "title": "Título 11",
+    "alt": "Image",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, libero vitae dignissim tempus, lorem justo pharetra odio, vitae sollicitudin dui mi vitae magna. Nullam vitae magna tempus eros dictum placerat id sed tortor."
   }
 ]
