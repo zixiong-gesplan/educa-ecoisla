@@ -7,15 +7,15 @@ import { SVGCodes } from "@/app/types/SVG-codes";
 
 describe("Card component", () => {
 
-    const url = "https://facebook.com"
+  const url = "https://facebook.com"
 
-    it("exists description", async () => {
-        render(<SocialButton
-            d={SVGCodes.Facebook}
-            url={url}
-        />);
+  it("exists description", async () => {
+    render(<SocialButton
+      d={SVGCodes.Facebook}
+      url={url}
+    />);
 
-        const link = screen.getByRole('link');
-        expect(link).toHaveAttribute('href', url);
-    })
+    const link = screen.getByRole('link');
+    expect(link).toHaveAttribute('href', url);
+  })
 })
