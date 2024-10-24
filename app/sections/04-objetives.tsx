@@ -3,7 +3,7 @@ import { SVGCodes } from '../types/SVG-codes';
 
 export const Objetives = () => {
 	return (
-		<section id="objetivos" className="mt-4 bg-[#B0CB21] p-8 w-full">
+		<section data-testid="objetives" id="objetivos" className="mt-4 bg-[#B0CB21] p-8 w-full">
 			<h1 className="font-bold text-zinc-50 text-center text-2xl">
 				OBJETIVOS GENERALES
 			</h1>
