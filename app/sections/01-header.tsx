@@ -8,7 +8,7 @@ export const Header = () => {
 
     <header className="bg-white">
 
-      <div className="flex items-center align-middle justify-between p-1 sm:p-3 md:p-4 w-full">
+      <div className="flex items-center justify-between p-1 sm:p-3 md:p-4 w-full">
 
         <div className="w-1/4">
           <a href="https://cabildo.grancanaria.com" >
