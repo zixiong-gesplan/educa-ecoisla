@@ -5,7 +5,7 @@ import { Article } from "../components/Article"
 
 export const Tools = () => {
 	return (
-		<section id="plan" className="px-4 flex flex-col items-center max-w-screen-xl gap-0 xl:gap-6">
+		<section data-testid="tools" id="plan" className="px-4 flex flex-col items-center max-w-screen-xl gap-0 xl:gap-6">
 
 			<h2 className="text-2xl w-full text-center text-gray-900 font-extrabold">INSTRUMENTOS PARA ESTAS LABORES</h2>
 
