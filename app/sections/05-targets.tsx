@@ -4,7 +4,7 @@ import { Target } from "../components/Target"
 
 export const Targets = () => {
     return (
-        <section id="ejes" className="w-full">
+        <section data-testid="targets" id="ejes" className="w-full">
 
             <h3 className="text-center text-2xl sm:text-3xl text-custom-light-bg bg-opacity-10 rounded-lg mx-3 bg-white font-bold mt-8 p-3 ">EJES DE ACTUACIÓN</h3>
             <Accordion />
