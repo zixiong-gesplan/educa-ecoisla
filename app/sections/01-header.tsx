@@ -1,6 +1,6 @@
 import { ImageWrapper as Image } from "../components/Image"
 import SocialButton from '../components/SocialButton';
-import { SVGCodes } from "../types/SVG-codes";
+import { SVGCodes } from "../enums/SVG-codes";
 
 export const Header = () => {
 

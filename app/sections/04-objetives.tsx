@@ -1,5 +1,5 @@
 import { Target } from '../components/Target';
-import { SVGCodes } from '../types/SVG-codes';
+import { SVGCodes } from '../enums/SVG-codes';
 
 export const Objetives = () => {
 	return (

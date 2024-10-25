@@ -1,5 +1,5 @@
 import { ButtonLight } from "../components/ButtonLight";
-import { SVGCodes } from "../types/SVG-codes";
+import { SVGCodes } from "../enums/SVG-codes";
 import { ImageWrapper as Image } from "../components/Image";
 
 
@@ -7,7 +7,7 @@ export const Collaborations = () => {
 	return (
 		<section data-testid="collaborations" className="mx-4 max-w-screen-xl w-full mb-4">
 
-			<h3 className="w-full mb-6 md:mb-10 text-xl sm:text-3xl text-center text-black font-bold">En colaboración de</h3>
+			<h3 className="w-full mb-6 md:mb-10 text-xl sm:text-2xl text-center text-black font-extrabold">EN COLABORACIÓN DE</h3>
 
 			<div className="flex flex-col lg:flex-row flex-wrap justify-around items-center w-full">
 				<div className="flex flex-col justify-center items-center w-1/2  mb-6">

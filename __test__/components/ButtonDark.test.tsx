@@ -1,5 +1,5 @@
 import { ButtonDark } from "@/app/components/ButtonDark";
-import { SVGCodes } from "@/app/types/SVG-codes";
+import { SVGCodes } from "@/app/enums/SVG-codes";
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 

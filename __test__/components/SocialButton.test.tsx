@@ -3,7 +3,7 @@ import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 
 import SocialButton from "@/app/components/SocialButton";
-import { SVGCodes } from "@/app/types/SVG-codes";
+import { SVGCodes } from "@/app/enums/SVG-codes";
 
 describe("Card component", () => {
 

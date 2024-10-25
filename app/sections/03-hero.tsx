@@ -1,14 +1,14 @@
 import Image from "next/image"
 import { ButtonDark } from '../components/ButtonDark';
 import { ButtonLight } from '../components/ButtonLight';
-import { SVGCodes } from "../types/SVG-codes";
+import { SVGCodes } from "../enums/SVG-codes";
 
 export const Hero = () => {
 	return (
 		<section data-testid="hero" id="inicio">
 			<div className="grid max-w-screen-xl px-0 sm:px-2 py-8 mx-4 lg:gap-8 xl:gap-0 lg:py-16 xl:grid-cols-12">
 				<div className="mr-auto place-self-center xl:col-span-7">
-					<h2 className="mb-4 text-2xl sm:text-5xl dark:text-black">La educación ambiental supone una pieza importante en la conservación del territorio.</h2>
+					<h2 className="mb-4 text-2xl sm:text-5xl dark:text-black font-bold">La educación ambiental supone una pieza importante en la conservación del territorio.</h2>
 					<p className="text-lg sm:text-2xl dark:text-black">La consejería de Medio Ambiente del Cabildo de Gran Canaria ha implementado un Plan de Acción de Educación Ambiental
 						para la Sostenibilidad, centrado en la concienciación social sobre la conservación del medio ambiente.
 					</p>
