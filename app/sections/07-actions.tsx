@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ActivityTarget } from "../components/ActivityTarget";
 import { MoreActivities } from "../components/MoreActivities";
+import { SVGCodes } from "../types/SVG-codes";
 
 export const Actions = () => {
 	return (
@@ -27,8 +28,8 @@ export const Actions = () => {
 					Accede a todas las actividades realizadas
 				</Link>
 
-				<svg className="w-6 h-6 text-custom-light-bg dark:text-white  mt-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
-					<path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 12H5m14 0-4 4m4-4-4-4" />
+				<svg className="w-6 h-6 text-custom-light-bg mt-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={SVGCodes.Arrow} />
 				</svg>
 
 			</div>
