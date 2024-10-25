@@ -10,7 +10,7 @@ export const AccordionItem = ({
   const [status, setStatus] = useState(false);
 
   return (
-    <div className="mx-3 max-w-[90vw]" {...props}>
+    <div className="mx-3" {...props}>
       <h2>
         <button
           type="button"
