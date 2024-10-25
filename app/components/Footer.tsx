@@ -1,12 +1,11 @@
 import SocialButton from "./SocialButton";
-import { SVGCodes } from "../types/SVG-codes";
+import { SVGCodes } from "../enums/SVG-codes";
 
 interface contactProp {
 	copy_right: String;
 	telephone: String;
 	email: String;
 };
-
 
 export const FooterBase = ({ copy_right, telephone, email }: contactProp) => {
 	return (

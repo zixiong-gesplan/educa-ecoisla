@@ -1,12 +1,7 @@
 import Link from "next/link";
+import { ButtonProps } from "../types/ButtonProps";
 
-interface Props {
-    content: string,
-    d: string,
-    href?: string,
-}
-
-export const ButtonLight = ({ content, d, href = "#" }: Props) => {
+export const ButtonLight = ({ content, d, href = "#" }: ButtonProps) => {
     return (
         <Link href={href} className="flex items-center justify-between text-custom-dark-green bg-custom-light-bg bg-opacity-20
          hover:bg-opacity-40 rounded-lg px-4 py-2 w-full md:w-72 border-custom-dark-green border-4">

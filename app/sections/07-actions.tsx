@@ -1,13 +1,13 @@
 import Link from "next/link";
 import { ActivityTarget } from "../components/ActivityTarget";
 import { MoreActivities } from "../components/MoreActivities";
-import { SVGCodes } from "../types/SVG-codes";
+import { SVGCodes } from "../enums/SVG-codes";
 
 export const Actions = () => {
 	return (
 		<section data-testid="actions" id="actividades" className="mx-4 max-w-screen-xl">
 
-			<h2 className="m-6 text-2xl w-full text-center text-gray-900 font-extrabold">ACTIVIDADES</h2>
+			<h2 className="m-6 text-xl sm:text-2xl w-full text-center text-gray-900 font-extrabold">ACTIVIDADES</h2>
 
 			<div className="grid grid-cols-3 lg:grid-cols-4 gap-3 xl:gap-12 dark:text-black">
 
@@ -20,6 +20,7 @@ export const Actions = () => {
 				<MoreActivities text="Más actividades" />
 
 			</div>
+      
 			<div className=" w-full flex justify-center items-center">
 
 				<Link
