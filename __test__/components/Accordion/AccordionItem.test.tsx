@@ -1,16 +1,16 @@
-import { AccordionItem } from "@/app/components/Accordion";
-
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
 
 import { fireEvent } from "@testing-library/react";
 
+import { AccordionItem } from "@/app/components/Accordion/AccordionItem";
+
 describe("AccordionItem component", () => {
 
-  const title = "Prueba";
-  const description = "Esto es una prueba";
-
   it("render", () => {
+    const title = "Prueba";
+    const description = "Esto es una prueba";
+
     render(<AccordionItem title={title} description={description} data-testid="accordion-collapse-heading-1" />);
 
     expect(screen.getByText(title)).toBeDefined();
@@ -19,6 +19,9 @@ describe("AccordionItem component", () => {
   });
 
   it("dropdown", () => {
+    const title = "Prueba";
+    const description = "Esto es una prueba";
+    
     render(<AccordionItem title={title} description={description} data-testid="accordion-collapse-heading-1" />);
 
     const titleBox = screen.getByTestId('accordion-collapse-heading-1');

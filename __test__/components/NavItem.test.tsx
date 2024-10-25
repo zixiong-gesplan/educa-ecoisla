@@ -6,12 +6,12 @@ import NavItem from "@/app/components/NavItem";
 describe("NavItem Component", () => {
   
   it("Test of the navbar links", () => {
-    const label = "Inicio";
+    const children = "Inicio";
     const url = "#inicio";
 
-    render(<NavItem label={label} url={url} />);
+    render(<NavItem url={url}>{children}</NavItem>);
     
-    const linkElement = screen.getByText(label);
+    const linkElement = screen.getByText(children);
     
     expect(linkElement).toBe;
     expect(linkElement).toHaveAttribute("href", url);
