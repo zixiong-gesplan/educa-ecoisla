@@ -13,7 +13,6 @@ describe( "MasonryGrid Component", () => {
   it( "renders FullScreenSpinner when windowSize is undefined", () => {
     const mockedUseWindowSize = useWindowSize as MockedFunction<typeof useWindowSize>;
     const mockedUseModal = useModal as MockedFunction<typeof useModal>;
-    const openModalMock = vi.fn();
 
     // Mockeamos el hook useWindowSize para que retorne undefined
     mockedUseWindowSize.mockReturnValue( undefined );
@@ -23,7 +22,7 @@ describe( "MasonryGrid Component", () => {
       selectedImage: undefined,
       isVisible: false,
       isOpen: false,
-      openModal: openModalMock,
+      openModal: vi.fn(),
       closeModal: vi.fn(),
     } );
 
@@ -36,7 +35,7 @@ describe( "MasonryGrid Component", () => {
   it( "renders the Masonry grid with images when windowSize is available", () => {
     const mockedUseWindowSize = useWindowSize as MockedFunction<typeof useWindowSize>;
     const mockedUseModal = useModal as MockedFunction<typeof useModal>;
-    const openModalMock = vi.fn();
+
     // Mockeamos el hook useWindowSize para que retorne un tamaño válido
     mockedUseWindowSize.mockReturnValue( 1024 );
 
@@ -45,7 +44,7 @@ describe( "MasonryGrid Component", () => {
       selectedImage: undefined,
       isVisible: false,
       isOpen: false,
-      openModal: openModalMock,
+      openModal: vi.fn(),
       closeModal: vi.fn(),
     } );
 
@@ -89,7 +88,6 @@ describe( "MasonryGrid Component", () => {
   it( "renders the modal when isOpen is true", () => {
     const mockedUseWindowSize = useWindowSize as MockedFunction<typeof useWindowSize>;
     const mockedUseModal = useModal as MockedFunction<typeof useModal>;
-    const openModalMock = vi.fn();
 
     // Mockeamos el hook useWindowSize para que retorne un tamaño válido
     mockedUseWindowSize.mockReturnValue( 1024 );
@@ -99,7 +97,7 @@ describe( "MasonryGrid Component", () => {
       selectedImage: mockImages[ 0 ],
       isVisible: true,
       isOpen: true,
-      openModal: openModalMock,
+      openModal: vi.fn(),
       closeModal: vi.fn(),
     } );
 
