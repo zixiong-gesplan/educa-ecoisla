@@ -1,4 +1,5 @@
 "use client";
+
 import { AccordionItemProps } from "@/app/types/Accordion";
 import { useState } from "react";
 
