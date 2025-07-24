@@ -38,8 +38,8 @@ export const Tools = () => {
 				<div className="w-full xl:w-2/3">
 					<h3 className="text-2xl sm:text-3xl text-custom-light-bg">Divulgación ambiental</h3>
 					<p className="border-b-2 border-custom-light-bg py-4 text-lg sm:text-xl dark:text-black">
-						Mediante el que se elaboran materiales divulgativos, promoviendo la difusión
-						de contenidos para el fomento de la concienciación social en determinados ámbitos.
+						Mediante este proceso se elaboran materiales divulgativos que promuevan la difusión de contenidos orientados a fomentar la
+						concienciación social sobre temas ambientales en ámbitos específicos.
 					</p>
 					<ul className="mt-4 flex flex-col gap-4 dark:text-black">
 						<li className="flex gap-2"> <SVGTicket /> Materiales divulgativos</li>

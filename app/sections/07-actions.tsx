@@ -11,13 +11,12 @@ export const Actions = () => {
 
 			<div className="grid grid-cols-3 lg:grid-cols-4 gap-3 xl:gap-12 dark:text-black">
 
-				<ActivityTarget size={250} text="Talleres en aula" />
-				<ActivityTarget size={250} text="Salidas al campo" />
-				<ActivityTarget size={250} text="Rutas al campo" />
-				<ActivityTarget size={250} text="Ferias" />
-				<ActivityTarget size={250} text="Colaboraciones" />
+				<ActivityTarget size={300} text="Talleres en aula" />
+				<ActivityTarget size={300} text="Rutas de campo interpretadas" />
+				<ActivityTarget size={300} text="Ferias y enventos" />
+				<ActivityTarget size={300} text="Colaboraciones" />
 
-				<MoreActivities text="Más actividades" />
+				{/* <MoreActivities text="Más actividades" /> */}
 
 			</div>
       

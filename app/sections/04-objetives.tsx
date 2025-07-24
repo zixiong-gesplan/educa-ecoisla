@@ -8,13 +8,13 @@ export const Objetives = () => {
 				OBJETIVOS GENERALES
 			</h1>
 			<div className="flex flex-wrap	w-full justify-evenly gap-2 mx-auto max-w-screen-xl">
-				<Target text="Implementamos  actividades de educación ambiental con mejoras continuas.">
+				<Target text="Desarrollo de actividades de educación ambiental con mejoras continuas.">
 					<svg className="w-[64px] h-[64px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
 						<path stroke="white" strokeLinecap="round" strokeWidth="1.6" d={SVGCodes.Group} />
 					</svg>
 
 				</Target>
-				<Target text="Realizamos formación para el profesorado y colectivos de profesionales de educación ambiental.">
+				<Target text="Formación para el profesorado, colectivos de profesionales de actividades en el medio natural, colectivos y ciudadanía general.">
 					<svg className="w-[64px] h-[64px] text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
 						<path stroke="white" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.6" d={SVGCodes.Edit} />
 					</svg>
@@ -38,7 +38,7 @@ export const Objetives = () => {
 					</svg>
 
 				</Target>
-				<Target text="Buscamos la innovación e investigación en el ámbito educativo.">
+				<Target text="Innovación e investigación en el ámbito educativo.">
 					<svg
 						className="w-[64px] h-[64px] text-gray-800 dark:text-white" aria-hidden="true"
 						xmlns="http://www.w3.org/2000/svg"
