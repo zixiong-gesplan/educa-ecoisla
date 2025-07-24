@@ -3,11 +3,10 @@ import { SVGCodes } from "../enums/SVG-codes";
 
 interface contactProp {
 	copy_right: String;
-	telephone: String;
 	email: String;
 };
 
-export const FooterBase = ({ copy_right, telephone, email }: contactProp) => {
+export const FooterBase = ({ copy_right, email }: contactProp) => {
 	return (
 		<footer className="flex justify-center w-full bg-custom-light-bg text-white p-8">
 
@@ -15,7 +14,6 @@ export const FooterBase = ({ copy_right, telephone, email }: contactProp) => {
 
 				<div className="flex items-start flex-col gap-y-2 md:gap-y-4 w-full md:w-3/4">
 					<p>Email: <a href={`mailto:${email}`}>{email}</a></p>
-					<p data-testid="phone-number">Teléfono: {telephone}</p>
 					<p>&copy;{copy_right}</p>
 				</div>
 
