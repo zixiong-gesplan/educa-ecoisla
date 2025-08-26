@@ -22,7 +22,7 @@ export const Actions = () => {
         {/* <MoreActivities text="Más actividades" /> */}
       </div>
 
-      <div className="text-2xl md:text-lg w-full flex justify-center items-center flex-wrap mt-6">
+      <div className="text-xl md:text-2xl w-full flex justify-center items-center flex-wrap mt-6">
         <span className="text-custom-light-bg sm:text-2xl text-center">
           Otros enlaces de Interes
         </span>
