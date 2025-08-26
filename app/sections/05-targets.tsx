@@ -11,21 +11,20 @@ export const Targets = () => {
 
                 <Card
                     title="Patrimonio Natural de Gran Canaria"
-                    description="Tiene como objetivo principal dar a conocer la BIODIVERSIDAD a la ciudadanía de la isla,
-                    como vía fundamental para promover la conservación del territorio."
+                    description="Tiene como objetivo principal dar a conocer la BIODIVERSIDAD de
+                    la isla como vía fundamental para promover la conservación del territorio."
                 />
                 <Card
                     title="Conservación de la biodiversidad"
                     description="Las Especies Exóticas Invasoras (EEI)  representan una de las principales amenazas para la conservación de 
                     la biodiversidad, especialmente en los territorios insulares.<br />
-                    Dado que la problemática de estas especies implica directamente a la sociedad, resulta fundamental la concienciación de la ciudadanía sobre los impactos que  las EEI generan en los ecosistemas naturales."
+                    Dado que la problemática de estas especies implica directamente a la sociedad, resulta indispensable conocer
+                    el impacto que las EEI generan sobre los ecosistemas naturales."
                 />
                 <Card
                     title="Buenas prácticas para la sostenibilidad"
                     description="En este eje estarán comprendidas todas aquellas actuaciones diseñadas para promover conductas respetuosas
-                    y sostenibles en la ciudadanía de la isla.<br />
-                    Se incluirán actividades que incentiven el consumo responsable de recursos, la eficiencia energética, la separación de
-                    los residuos, etc."
+                    y sostenibles, consumo de recursos de manera responsable, eficiencia energética, clasificación de residuos, etc."
                 />
 
             </div>
