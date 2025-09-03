@@ -27,13 +27,13 @@ export const Hero = () => {
           </p>
           <div className="flex mt-10 sm:w-5/6 flex-row justify-start gap-2 sm:gap-3 md:gap-4">
             <ButtonDark
-              content="Galería actividades"
+              content="Inscripción actividades"
               d={SVGCodes.Image2}
               href="/gallery"
             ></ButtonDark>
 
             <ButtonLight
-              content="Próximos Eventos"
+              content="Próximo Evento"
               d={SVGCodes.ArrowUpRight}
               href="https://docs.google.com/forms/d/e/1FAIpQLSfO3aylXbvJujHBKCc4Kr23IbtlyFnKiuugB5A1MGx93ioiYQ/closedform"
             ></ButtonLight>

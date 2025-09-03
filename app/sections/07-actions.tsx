@@ -15,13 +15,14 @@ export const Actions = () => {
 
       <ActivityTarget
         title="Talleres"
-        text="Actividads de educación ambiental para grupos de diferentes edades"
+        text="Actividades de educación ambiental para grupos de diferentes edades"
         size={1500}
         src="/talleres.png"
         titleSize="text-2xl md:text-4xl"
         textSize="text-xl md:text-4xl"
         className="relative w-full mb-16"
       />
+
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 xl:gap-12 dark:text-black">
         <ActivityTarget
           title="Voluntariado"
