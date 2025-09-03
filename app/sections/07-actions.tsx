@@ -17,7 +17,7 @@ export const Actions = () => {
         title="Talleres"
         text="Actividades de educación ambiental para grupos de diferentes edades"
         size={1500}
-        src="/talleres.png"
+        src="/Talleres.png"
         titleSize="text-2xl md:text-4xl"
         textSize="text-xl md:text-4xl"
         className="relative w-full mb-16"
