@@ -3,12 +3,14 @@ import { Objetives } from "./sections/04-objetives";
 import { Targets } from "./sections/05-targets";
 import { Tools } from "./sections/06-tools";
 import { Actions } from "./sections/07-actions";
-import { Collaborations } from "./sections/08-Collaborations";
-import { Footer } from "./sections/09-footer";
+import { Collaborations } from "./sections/08-collaborations";
+import { NavBar } from "./sections/02-navbar";
+
 
 export default function Home() {
 	return (
 		<>
+			<NavBar></NavBar>
 			<main className="flex min-h-screen flex-col items-center">
 				<Hero></Hero>
 				<Objetives></Objetives>
@@ -19,9 +21,7 @@ export default function Home() {
 				<Actions></Actions>
 				<section className="h-10"></section>
 				<Collaborations />
-
 			</main>
-			<Footer></Footer>
 		</>
 	);
 }
