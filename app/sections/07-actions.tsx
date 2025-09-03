@@ -11,16 +11,16 @@ export const Actions = () => {
       className="mt-4 mx-4 max-w-screen-xl"
     >
 
-      <h2 className="font-extrabold text-4xl text-center my-8">ACTIVIDADES</h2>
+      <h2 className="font-extrabold text-xl md:text-4xl text-center my-4 md:my-8">ACTIVIDADES</h2>
 
       <ActivityTarget
         title="Talleres"
         text="Actividades de educación ambiental para grupos de diferentes edades"
         size={1500}
         src="/talleres.png"
-        titleSize="text-2xl md:text-4xl"
-        textSize="text-xl md:text-4xl"
-        className="relative w-full mb-16"
+        titleSize="text-lg md:text-2xl md:text-4xl"
+        textSize="text-lg md:text-2xl lg:text-4xl leading-tight"
+        className="relative w-full mb-4 md:mb-16"
       />
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 xl:gap-12 dark:text-black">
@@ -29,27 +29,27 @@ export const Actions = () => {
           text="Conservación a través de la colaboración ciudadana"
           size={1200}
           src="/actividad-01.png"
-          titleSize="text-2xl"
-          textSize="text-2xl"
-          className="relative w-full mb-8"
+          titleSize="text-lg md:text-2xl"
+          textSize="text-lg md:text-2xl leading-tight"
+          className="relative w-full mb-4 md:mb-8"
         />
         <ActivityTarget
           title="Salidas de campo"
-          text="Rustas interpretadas para conocer el patrimonio natural"
+          text="Rutas interpretadas para conocer el patrimonio natural"
           size={1200}
           src="/actividad-02.png"
-          titleSize="text-2xl"
-          textSize="text-2xl"
-          className="relative w-full mb-8"
+          titleSize="text-lg md:text-2xl"
+          textSize="text-lg md:text-2xl leading-tight"
+          className="relative w-full mb-4 md:mb-8"
         />
         <ActivityTarget
           title="Ferias"
           text="Participación en eventos"
           size={1200}
           src="/actividad-03.png"
-          titleSize="text-2xl"
-          textSize="text-2xl"
-          className="relative w-full mb-8"
+          titleSize="text-lg md:text-2xl"
+          textSize="text-lg md:text-2xl leading-tight"
+          className="relative w-full mb-4 md:mb-8"
         />
 
         {/* <MoreActivities text="Más actividades" /> */}

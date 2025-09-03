@@ -41,14 +41,14 @@ export const ActivityTarget = ({
       />
 
       {/* Caja superior con título */}
-      <div className="absolute top-6 left-6 z-20 bg-white px-8 py-4 rounded-lg shadow-md max-w-[80%]">
+      <div className="absolute top-2 left-2 sm:top-6 sm:left-6 z-20 bg-white px-4 py-2 md:px-8 md:py-4 rounded-lg shadow-md max-w-[95%] md:max-w-[80%]">
         <h2 className={`${titleSize} text-custom-dark-green font-normal`}>
           {title}
         </h2>
       </div>
 
       {/* Texto inferior */}
-      <div className="absolute bottom-6 left-6 z-20 w-3/4">
+      <div className="absolute bottom-2 left-2 sm:bottom-6 sm:left-6 z-20 max-w-[90%] md:w-3/4">
         <p
           className={`${textSize} text-white leading-relaxed drop-shadow-md font-normal`}
         >
