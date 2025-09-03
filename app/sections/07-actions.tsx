@@ -10,14 +10,46 @@ export const Actions = () => {
       id="actividades"
       className="mt-4 mx-4 max-w-screen-xl"
     >
-      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-3 xl:gap-12 dark:text-black">
-        <ActivityTarget size={500} text="Talleres en aula" />
+
+      <h2 className="font-extrabold text-4xl text-center my-8">ACTIVIDADES</h2>
+
+      <ActivityTarget
+        title="Talleres"
+        text="Actividads de educación ambiental para grupos de diferentes edades"
+        size={1500}
+        src="/talleres.png"
+        titleSize="text-2xl md:text-4xl"
+        textSize="text-xl md:text-4xl"
+        className="relative w-full mb-16"
+      />
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 xl:gap-12 dark:text-black">
         <ActivityTarget
-          size={500}
-          text="Actividades de interpretación en campo"
+          title="Voluntariado"
+          text="Conservación a través de la colaboración ciudadana"
+          size={1200}
+          src="/actividad-01.png"
+          titleSize="text-2xl"
+          textSize="text-2xl"
+          className="relative w-full mb-8"
         />
-        <ActivityTarget size={500} text="Ferias y eventos públicos" />
-        <ActivityTarget size={500} text="Jornadas de voluntariado" />
+        <ActivityTarget
+          title="Salidas de campo"
+          text="Rustas interpretadas para conocer el patrimonio natural"
+          size={1200}
+          src="/actividad-02.png"
+          titleSize="text-2xl"
+          textSize="text-2xl"
+          className="relative w-full mb-8"
+        />
+        <ActivityTarget
+          title="Ferias"
+          text="Participación en eventos"
+          size={1200}
+          src="/actividad-03.png"
+          titleSize="text-2xl"
+          textSize="text-2xl"
+          className="relative w-full mb-8"
+        />
 
         {/* <MoreActivities text="Más actividades" /> */}
       </div>

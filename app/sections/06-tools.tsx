@@ -31,7 +31,7 @@ export const Tools = () => {
 				</div>
 				<div className="hidden xl:mt-0 xl:block xl:w-1/3">
 					<Image
-						src="/informacion.png"
+						src="/dibujo.png"
 						alt="Imágen de portada"
 						unoptimized={true}
 						width={0}
@@ -43,7 +43,7 @@ export const Tools = () => {
 			<Article direction="flex-row-reverse">
 				<div className="w-full xl:w-2/3">
 					<h3 className="text-2xl sm:text-3xl text-custom-light-bg">Divulgación ambiental</h3>
-					<p className="border-b-2 border-custom-light-bg py-4 text-lg sm:text-xl dark:text-black">
+					<p className="border-b-2 border-custom-light-bg xl:h-48 py-4 text-lg sm:text-xl dark:text-black">
 						Transmisión de información de manera clara y accesible, sobre temas ambientales en ámbitos específicos,
 						para promover la sensibilización en la población general.
 					</p>
@@ -60,7 +60,7 @@ export const Tools = () => {
 				</div>
 				<div className="hidden xl:mt-0 xl:block xl:w-1/3">
 					<Image
-						src="/informacion.png"
+						src="/aula-01.png"
 						alt="Imágen de portada"
 						unoptimized={true}
 						width={0}

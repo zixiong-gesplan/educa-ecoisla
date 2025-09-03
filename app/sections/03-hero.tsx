@@ -42,8 +42,8 @@ export const Hero = () => {
         <aside className="hidden xl:mt-0 xl:col-span-5 xl:flex ml-4">
           <SidebarFadeSlider
             slides={slides}
-            intervalMs={8000}
-            fadeMs={800}
+            intervalMs={5000}
+            fadeMs={600}
             className=""
           />
         </aside>

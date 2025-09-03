@@ -8,7 +8,7 @@ import { Header } from "./sections/01-header";
 import { Footer } from "./sections/09-footer";
 
 const MPLUS1 = M_PLUS_Rounded_1c({
-	weight: ["700", "900"],
+	weight: ["100", "300", "400", "500", "700", "900"],
 	subsets: ["latin"],
 	style: "normal",
 });
@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="es">
-			<body className={MPLUS1.className}>
+			<body className={`${MPLUS1.className} font-bold`}>
 				<Header></Header>
 				{children}
 				<Footer></Footer>
